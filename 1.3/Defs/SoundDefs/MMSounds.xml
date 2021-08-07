@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <SoundDef>
+    <defName>EM_SkullTurretSound</defName>
+    <label>skull turret noise</label>
+    <description>noise a skull turret makes</description>
+    <context>MapOnly</context>
+    <eventNames />
+    <subSounds>
+      <li>
+        <name>EM_SkullBulletSound</name>
+        <onCamera>True</onCamera>
+        <muteWhenPaused>True</muteWhenPaused>
+        <tempoAffectedByGameSpeed>True</tempoAffectedByGameSpeed>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Guns/SkullBullet</clipPath>
+          </li>
+        </grains>
+        <pitchRange>
+          <min>1</min>
+          <max>3</max>
+        </pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+  <SoundDef>
+    <defName>EM_ChargesSound</defName>
+    <label>impact charge noise</label>
+    <description>impact charge explosion</description>
+    <context>MapOnly</context>
+    <eventNames />
+    <subSounds>
+      <li>
+        <name>EM_ChargeExplSound</name>
+        <onCamera>True</onCamera>
+        <muteWhenPaused>True</muteWhenPaused>
+        <tempoAffectedByGameSpeed>True</tempoAffectedByGameSpeed>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Guns/ChargeBullet</clipPath>
+          </li>
+        </grains>
+        <pitchRange>
+          <min>1</min>
+          <max>3</max>
+        </pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+  <SoundDef>
+    <defName>EM_RipperSound</defName>
+    <label>ripper noise</label>
+    <description>ripper shoot sound</description>
+    <context>MapOnly</context>
+    <eventNames />
+    <subSounds>
+      <li>
+        <name>EM_RipperBulletSound</name>
+        <onCamera>True</onCamera>
+        <muteWhenPaused>True</muteWhenPaused>
+        <tempoAffectedByGameSpeed>True</tempoAffectedByGameSpeed>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Guns/RipperBullet</clipPath>
+          </li>
+        </grains>
+        <pitchRange>
+          <min>1</min>
+          <max>3</max>
+        </pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+</Defs>

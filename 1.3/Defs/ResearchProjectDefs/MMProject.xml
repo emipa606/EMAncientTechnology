@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ResearchProjectDef>
+    <defName>MM_Basic</defName>
+    <label>Ancient Tech Basics</label>
+    <description>Uncover the secrets of the earth by discovering ancient mechanisms, along with breaking down humans for their blood.</description>
+    <baseCost>400</baseCost>
+    <techLevel>Neolithic</techLevel>
+    <researchViewX>0.00</researchViewX>
+    <researchViewY>4.80</researchViewY>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>MM_Adv</defName>
+    <label>Advanced Ancient Tech</label>
+    <description>Learn how to build rudimentary autonomous defenses using ancient technology and blood mechanites.</description>
+    <baseCost>400</baseCost>
+    <techLevel>Neolithic</techLevel>
+    <prerequisites>
+      <li>MM_Basic</li>
+    </prerequisites>
+    <researchViewX>1.00</researchViewX>
+    <researchViewY>4.75</researchViewY>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>MM_Turret</defName>
+    <label>Ancient Turrets</label>
+    <description>More advanced turrets crafted from ancient technology- the rock catapult and acid launcher, along with upgrades for the dart trap and fearful effigy.</description>
+    <baseCost>800</baseCost>
+    <techLevel>Neolithic</techLevel>
+    <prerequisites>
+      <li>MM_Adv</li>
+    </prerequisites>
+    <researchViewX>2.00</researchViewX>
+    <researchViewY>1.15</researchViewY>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>MM_Efficiency</defName>
+    <label>Ancient Efficiency</label>
+    <description>Use lost techniques to collect dirt in bulk, combine and break down mechanisms, and have living humans donate their blood.</description>
+    <baseCost>400</baseCost>
+    <techLevel>Neolithic</techLevel>
+    <prerequisites>
+      <li>MM_Adv</li>
+    </prerequisites>
+    <researchViewX>2.00</researchViewX>
+    <researchViewY>4.05</researchViewY>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>MM_Thinking</defName>
+    <label>Thinking Engines</label>
+    <description>Copy the technology of the engines that fall from the sky and think for themselves, and learn how to craft specialist weapons and armour.</description>
+    <baseCost>600</baseCost>
+    <techLevel>Neolithic</techLevel>
+    <prerequisites>
+      <li>MM_Efficiency</li>
+      <li>RecurveBow</li>
+    </prerequisites>
+    <researchViewX>3.00</researchViewX>
+    <researchViewY>4.00</researchViewY>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>MM_Crypt</defName>
+    <label>Death-Like Sleep</label>
+    <description>Copy the technology of the crypts that keep outworlders in a state of preservation and learn how to craft defensive armour and weaponry.</description>
+    <baseCost>600</baseCost>
+    <techLevel>Neolithic</techLevel>
+    <prerequisites>
+      <li>MM_Efficiency</li>
+      <li>RecurveBow</li>
+    </prerequisites>
+    <researchViewX>3.00</researchViewX>
+    <researchViewY>3.15</researchViewY>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>MM_Blood</defName>
+    <label>Blood Machines</label>
+    <description>Copy the technology of the blood machines that hunt us and learn how to craft fearsome armour and weapons.</description>
+    <baseCost>600</baseCost>
+    <techLevel>Neolithic</techLevel>
+    <prerequisites>
+      <li>MM_Efficiency</li>
+      <li>RecurveBow</li>
+    </prerequisites>
+    <researchViewX>3.00</researchViewX>
+    <researchViewY>2.45</researchViewY>
+  </ResearchProjectDef>
+</Defs>

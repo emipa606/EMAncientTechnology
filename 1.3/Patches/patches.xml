@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Mech_Centipede" or defName="Mech_Termite"]/butcherProducts</xpath>
+    <value>
+      <I_EMMechanismS>6</I_EMMechanismS>
+      <I_EMMechSkin>25</I_EMMechSkin>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[@Name="BaseMechanoidWalker"]/butcherProducts</xpath>
+    <value>
+      <I_EMMechanismS>4</I_EMMechanismS>
+      <I_EMMechSkin>15</I_EMMechSkin>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/PawnKindDef[defName="Mercenary_Heavy"]/weaponTags</xpath>
+    <value>
+      <li>MechaniteGuns</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/PawnKindDef[@Name="MercenaryEliteBase"]</xpath>
+    <value>
+      <weaponTags>
+        <li>MechaniteGuns</li>
+      </weaponTags>
+    </value>
+  </Operation>
+</Patch>

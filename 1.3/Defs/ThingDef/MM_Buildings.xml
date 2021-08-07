@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef Name="EMMM_BuildingBase" Abstract="True">
+    <category>Building</category>
+    <thingClass>Building</thingClass>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <selectable>true</selectable>
+    <drawerType>MapMeshAndRealTime</drawerType>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <repairEffect>Repair</repairEffect>
+    <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+    <filthLeaving>Filth_RubbleBuilding</filthLeaving>
+    <statBases>
+      <SellPriceFactor>0.50</SellPriceFactor>
+    </statBases>
+  </ThingDef>
+  <!-- excavation -->
+  <ThingDef ParentName="EMMM_BuildingBase">
+    <defName>EM_Excavation</defName>
+    <label>Excavation</label>
+    <thingClass>Building_WorkTable</thingClass>
+    <description>Designated spot where ancient mechanisms and lost technology is recovered.</description>
+    <graphicData>
+      <texPath>Things/Building/Excavation</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(5,5)</drawSize>
+    </graphicData>
+    <costList>
+      <WoodLog>150</WoodLog>
+    </costList>
+    <altitudeLayer>Building</altitudeLayer>
+    <fillPercent>0.5</fillPercent>
+    <statBases>
+      <WorkToBuild>1000</WorkToBuild>
+    </statBases>
+    <useHitPoints>False</useHitPoints>
+    <size>(5,5)</size>
+    <designationCategory>Production</designationCategory>
+    <passability>Standable</passability>
+    <pathCost>60</pathCost>
+    <hasInteractionCell>True</hasInteractionCell>
+    <interactionCellOffset>(0,0,2)</interactionCellOffset>
+    <surfaceType>Item</surfaceType>
+    <researchPrerequisites>
+      <li>MM_Basic</li>
+    </researchPrerequisites>
+    <!--
+		<recipes>
+			
+		</recipes>
+-->
+    <inspectorTabs>
+      <li>ITab_Bills</li>
+    </inspectorTabs>
+    <comps>
+      <li Class="CompProperties_AffectedByFacilities">
+        <linkableFacilities>
+          <li>ToolCabinet</li>
+        </linkableFacilities>
+      </li>
+    </comps>
+    <building>
+      <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+    </building>
+    <constructEffect>ConstructMetal</constructEffect>
+    <placeWorkers>
+      <li>PlaceWorker_ShowFacilitiesConnections</li>
+    </placeWorkers>
+  </ThingDef>
+  <!-- technology bench -->
+  <ThingDef ParentName="EMMM_BuildingBase">
+    <defName>EM_TechDesk</defName>
+    <label>Mechanists table</label>
+    <thingClass>Building_WorkTable</thingClass>
+    <description>Space set aside with tools and instruments to help recover and reassemble lost and damaged ancient technology.</description>
+    <graphicData>
+      <texPath>Things/Building/TechDesk</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(3,1)</drawSize>
+    </graphicData>
+    <costList>
+      <WoodLog>100</WoodLog>
+      <Silver>100</Silver>
+    </costList>
+    <altitudeLayer>Building</altitudeLayer>
+    <fillPercent>0.5</fillPercent>
+    <statBases>
+      <WorkToBuild>1000</WorkToBuild>
+    </statBases>
+    <useHitPoints>False</useHitPoints>
+    <size>(3,1)</size>
+    <designationCategory>Production</designationCategory>
+    <passability>Standable</passability>
+    <pathCost>60</pathCost>
+    <hasInteractionCell>True</hasInteractionCell>
+    <interactionCellOffset>(0,0,-1)</interactionCellOffset>
+    <surfaceType>Item</surfaceType>
+    <researchPrerequisites>
+      <li>MM_Basic</li>
+    </researchPrerequisites>
+    <!--
+		<recipes>
+			
+		</recipes>
+-->
+    <inspectorTabs>
+      <li>ITab_Bills</li>
+    </inspectorTabs>
+    <comps>
+      <li Class="CompProperties_AffectedByFacilities">
+        <linkableFacilities>
+          <li>ToolCabinet</li>
+        </linkableFacilities>
+      </li>
+    </comps>
+    <building>
+      <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+    </building>
+    <constructEffect>ConstructMetal</constructEffect>
+    <placeWorkers>
+      <li>PlaceWorker_ShowFacilitiesConnections</li>
+    </placeWorkers>
+  </ThingDef>
+  <!-- blood pit -->
+  <ThingDef ParentName="EMMM_BuildingBase">
+    <defName>EM_BloodPit</defName>
+    <label>Mechanite Grave</label>
+    <thingClass>Building_WorkTable</thingClass>
+    <description>An ancient art long lost, this simple looking grave is filled with specialised caustic compounds and mechanites that eat away at dead humanoids, leaving behind their bones and blood - full of mechanites which are useful for a wide variety of tasks.</description>
+    <graphicData>
+      <texPath>Things/Building/BloodPit</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(3,1)</drawSize>
+    </graphicData>
+    <costList>
+      <WoodLog>200</WoodLog>
+      <Silver>100</Silver>
+    </costList>
+    <altitudeLayer>Building</altitudeLayer>
+    <fillPercent>0.5</fillPercent>
+    <statBases>
+      <WorkToBuild>1000</WorkToBuild>
+    </statBases>
+    <useHitPoints>False</useHitPoints>
+    <size>(3,1)</size>
+    <designationCategory>Production</designationCategory>
+    <passability>Standable</passability>
+    <pathCost>60</pathCost>
+    <hasInteractionCell>True</hasInteractionCell>
+    <interactionCellOffset>(0,0,-1)</interactionCellOffset>
+    <surfaceType>Item</surfaceType>
+    <researchPrerequisites>
+      <li>MM_Basic</li>
+    </researchPrerequisites>
+    <!--
+		<recipes>
+			
+		</recipes>
+-->
+    <inspectorTabs>
+      <li>ITab_Bills</li>
+    </inspectorTabs>
+    <comps>
+      <li Class="CompProperties_AffectedByFacilities">
+        <linkableFacilities>
+          <li>ToolCabinet</li>
+        </linkableFacilities>
+      </li>
+    </comps>
+    <building>
+      <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+    </building>
+    <constructEffect>ConstructMetal</constructEffect>
+    <placeWorkers>
+      <li>PlaceWorker_ShowFacilitiesConnections</li>
+    </placeWorkers>
+  </ThingDef>
+</Defs>

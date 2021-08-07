@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ToolCapacityDef>
+    <defName>EM_PoisonStab</defName>
+    <label>poisoned</label>
+  </ToolCapacityDef>
+  <ToolCapacityDef>
+    <defName>EM_FlameStab</defName>
+    <label>burned</label>
+  </ToolCapacityDef>
+  <ToolCapacityDef>
+    <defName>EM_FearStab</defName>
+    <label>afflicted</label>
+  </ToolCapacityDef>
+  <ToolCapacityDef>
+    <defName>EM_SleepStab</defName>
+    <label>injected</label>
+  </ToolCapacityDef>
+</Defs>

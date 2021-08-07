@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- skull only -->
+  <RecipeDef>
+    <defName>EM_HarvestSkull</defName>
+    <label>harvest humanoid skull</label>
+    <description>Harvest the skull from a humanoid.</description>
+    <jobString>Carving</jobString>
+    <workAmount>500</workAmount>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <researchPrerequisite>MM_Adv</researchPrerequisite>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Corpses</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Corpses</li>
+      </categories>
+      <disallowedCategories>
+        <li>CorpsesMechanoid</li>
+      </disallowedCategories>
+    </fixedIngredientFilter>
+    <defaultIngredientFilter>
+      <thingDefs>
+        <li>Corpse_Human</li>
+      </thingDefs>
+      <specialFiltersToAllow>
+        <li>AllowCorpsesColonist</li>
+        <li>AllowCorpsesStranger</li>
+      </specialFiltersToAllow>
+    </defaultIngredientFilter>
+    <!--
+<researchPrerequisite>EM_BeeAnt</researchPrerequisite>
+-->
+    <recipeUsers>
+      <li>EM_BloodPit</li>
+    </recipeUsers>
+    <products>
+      <I_EMSkull>1</I_EMSkull>
+    </products>
+  </RecipeDef>
+  <!-- blood only -->
+  <RecipeDef>
+    <defName>EM_HarvestBlood</defName>
+    <label>harvest humanoid blood</label>
+    <description>Harvest the blood from a humanoid.</description>
+    <jobString>Bloodletting</jobString>
+    <workAmount>500</workAmount>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <researchPrerequisite>MM_Basic</researchPrerequisite>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Corpses</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>EM_RawGourd</li>
+          </thingDefs>
+        </filter>
+        <count>4</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Corpses</li>
+      </categories>
+      <disallowedCategories>
+        <li>CorpsesMechanoid</li>
+      </disallowedCategories>
+    </fixedIngredientFilter>
+    <defaultIngredientFilter>
+      <thingDefs>
+        <li>Corpse_Human</li>
+        <li>EM_RawGourd</li>
+      </thingDefs>
+      <specialFiltersToAllow>
+        <li>AllowCorpsesColonist</li>
+        <li>AllowCorpsesStranger</li>
+      </specialFiltersToAllow>
+    </defaultIngredientFilter>
+    <!--
+<researchPrerequisite>EM_BeeAnt</researchPrerequisite>
+-->
+    <recipeUsers>
+      <li>EM_BloodPit</li>
+    </recipeUsers>
+    <products>
+      <I_EMBlood>4</I_EMBlood>
+    </products>
+  </RecipeDef>
+  <!-- skull and blood only -->
+  <RecipeDef>
+    <defName>EM_HarvestSaB</defName>
+    <label>harvest humanoid skull and blood</label>
+    <description>Harvest the skull and blood from a humanoid. Produces drastically less blood than just harvesting blood alone.</description>
+    <jobString>Harvesting</jobString>
+    <workAmount>500</workAmount>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <researchPrerequisite>MM_Efficiency</researchPrerequisite>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Corpses</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>EM_RawGourd</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Corpses</li>
+      </categories>
+      <disallowedCategories>
+        <li>CorpsesMechanoid</li>
+      </disallowedCategories>
+    </fixedIngredientFilter>
+    <defaultIngredientFilter>
+      <thingDefs>
+        <li>Corpse_Human</li>
+        <li>EM_RawGourd</li>
+      </thingDefs>
+      <specialFiltersToAllow>
+        <li>AllowCorpsesColonist</li>
+        <li>AllowCorpsesStranger</li>
+      </specialFiltersToAllow>
+    </defaultIngredientFilter>
+    <!--
+<researchPrerequisite>EM_BeeAnt</researchPrerequisite>
+-->
+    <recipeUsers>
+      <li>EM_BloodPit</li>
+    </recipeUsers>
+    <products>
+      <I_EMSkull>1</I_EMSkull>
+      <I_EMBlood>4</I_EMBlood>
+    </products>
+  </RecipeDef>
+</Defs>

@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- ============= excavation ============= -->
+  <WorkGiverDef Name="EMMMWorkGiver" Abstract="True">
+    <giverClass>WorkGiver_DoBill</giverClass>
+    <workType>Mining</workType>
+    <priorityInType>90</priorityInType>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+  </WorkGiverDef>
+  <WorkGiverDef ParentName="EMMMWorkGiver">
+    <defName>EM_DoBillsExcavation</defName>
+    <workType>Mining</workType>
+    <priorityInType>90</priorityInType>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+    <label>excavate</label>
+    <fixedBillGiverDefs>
+      <li>EM_Excavation</li>
+    </fixedBillGiverDefs>
+    <verb>excavating</verb>
+    <gerund>dig</gerund>
+  </WorkGiverDef>
+  <WorkGiverDef ParentName="EMMMWorkGiver">
+    <defName>EM_DoBillsMechanism</defName>
+    <workType>Research</workType>
+    <priorityInType>90</priorityInType>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+    <label>reassemble</label>
+    <fixedBillGiverDefs>
+      <li>EM_TechDesk</li>
+    </fixedBillGiverDefs>
+    <verb>assembling</verb>
+    <gerund>assemble</gerund>
+  </WorkGiverDef>
+  <WorkGiverDef ParentName="EMMMWorkGiver">
+    <defName>EM_DoBillsBlood</defName>
+    <workType>Cooking</workType>
+    <priorityInType>90</priorityInType>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+    <label>refining</label>
+    <fixedBillGiverDefs>
+      <li>EM_BloodPit</li>
+    </fixedBillGiverDefs>
+    <verb>refining</verb>
+    <gerund>refine</gerund>
+  </WorkGiverDef>
+</Defs>

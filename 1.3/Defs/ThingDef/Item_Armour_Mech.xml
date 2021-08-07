@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="HatMakeableBase">
+    <defName>I_EMMechMask</defName>
+    <label>Scyther Helmet</label>
+    <description>Lost technology. A suit of armour made from wood, stone, and the skin of mechanoids brought to life with mechanites. Brings the wearer enhanced reflexes and speed much like the blood machines - but wearing this too seems to erode ones humanity.</description>
+    <techLevel>Neolithic</techLevel>
+    <graphicData>
+      <texPath>Things/Item/Apparel/MechMask</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <WorkToMake>5000</WorkToMake>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Mass>1.4</Mass>
+      <ArmorRating_Blunt>0.05</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.07</ArmorRating_Sharp>
+      <ArmorRating_Heat>0.05</ArmorRating_Heat>
+      <Insulation_Cold>7</Insulation_Cold>
+      <Insulation_Heat>7</Insulation_Heat>
+    </statBases>
+    <equippedStatOffsets>
+      <MoveSpeed>0.4</MoveSpeed>
+      <ShootingAccuracyPawn>-0.1</ShootingAccuracyPawn>
+      <AimingDelayFactor>-0.4</AimingDelayFactor>
+      <SocialImpact>-0.20</SocialImpact>
+    </equippedStatOffsets>
+    <apparel>
+      <bodyPartGroups>
+        <li>FullHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Item/Apparel/MechMask</wornGraphicPath>
+      <hatRenderedFrontOfFace>false</hatRenderedFrontOfFace>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <tags>
+        <li>MechaniteMagicAr</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+    <recipeMaker>
+      <researchPrerequisite>
+        <li>MM_Blood</li>
+      </researchPrerequisite>
+      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+      <workSkill>Crafting</workSkill>
+      <effectWorking>Sculpt</effectWorking>
+      <soundWorking>Recipe_Sculpt</soundWorking>
+      <recipeUsers>
+        <li>CraftingSpot</li>
+        <li>TableMachining</li>
+      </recipeUsers>
+      <unfinishedThingDef>UnfinishedSculpture</unfinishedThingDef>
+    </recipeMaker>
+    <costList>
+      <I_EMMechanismS>4</I_EMMechanismS>
+      <I_EMMechanismL>2</I_EMMechanismL>
+      <I_EMMechSkin>15</I_EMMechSkin>
+      <WoodLog>25</WoodLog>
+      <I_EMSkull>1</I_EMSkull>
+      <I_EMBlood>2</I_EMBlood>
+    </costList>
+  </ThingDef>
+</Defs>

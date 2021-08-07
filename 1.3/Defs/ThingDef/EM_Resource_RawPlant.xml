@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="RoughPlantBase">
+    <defName>EM_RawGourd</defName>
+    <label>bottle gourd</label>
+    <description>Tough, inedible, squash-like vegetable that when hollowed out makes a great air and water tight container for things you need to keep fresh - like blood.</description>
+    <graphicData>
+      <texPath>Things/Item/Gourd</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.1</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>30</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+</Defs>
