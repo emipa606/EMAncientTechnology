@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- dirt -->
+  <ThingDef ParentName="ResourceBase">
+    <defName>I_EMDirt</defName>
+    <label>dirt pile</label>
+    <description>Pile of dirt that contains a large amount of broken machinery and ancient doodads.</description>
+    <graphicData>
+      <texPath>Things/Item/Dirt</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>40</MaxHitPoints>
+      <MarketValue>4</MarketValue>
+      <Mass>1</Mass>
+      <Flammability>0.2</Flammability>
+      <DeteriorationRate>0</DeteriorationRate>
+    </statBases>
+    <thingCategories>
+      <li>Manufactured</li>
+    </thingCategories>
+  </ThingDef>
+  <!-- mechanisms -->
+  <ThingDef ParentName="ResourceBase">
+    <defName>I_EMMechanismS</defName>
+    <label>small ancient mechanism</label>
+    <description>A smaller, partially reassembled ancient mechanism, who knows what this was once designed for. Currently unuseable but can be imbued with a semblence of life using mechanites from a humanoids blood.</description>
+    <graphicData>
+      <texPath>Things/Item/Mechanism1</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Metal_Drop</soundInteract>
+    <soundDrop>Standard_Drop</soundDrop>
+    <stackLimit>50</stackLimit>
+    <statBases>
+      <MaxHitPoints>70</MaxHitPoints>
+      <MarketValue>21</MarketValue>
+      <Mass>0.6</Mass>
+      <Flammability>1.0</Flammability>
+      <DeteriorationRate>2.0</DeteriorationRate>
+    </statBases>
+    <intricate>true</intricate>
+    <thingCategories>
+      <li>Manufactured</li>
+    </thingCategories>
+  </ThingDef>
+  <ThingDef ParentName="ResourceBase">
+    <defName>I_EMMechanismL</defName>
+    <label>large ancient mechanism</label>
+    <description>A larger, partially reassembled ancient mechanism, who knows what this was once designed for. Currently unuseable but can be imbued with a semblence of life using mechanites from a humanoids blood.</description>
+    <graphicData>
+      <texPath>Things/Item/Mechanism2</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Metal_Drop</soundInteract>
+    <soundDrop>Standard_Drop</soundDrop>
+    <stackLimit>50</stackLimit>
+    <statBases>
+      <MaxHitPoints>70</MaxHitPoints>
+      <MarketValue>21</MarketValue>
+      <Mass>0.6</Mass>
+      <Flammability>1.0</Flammability>
+      <DeteriorationRate>2.0</DeteriorationRate>
+    </statBases>
+    <intricate>true</intricate>
+    <thingCategories>
+      <li>Manufactured</li>
+    </thingCategories>
+  </ThingDef>
+  <!-- mechanoid skin -->
+  <ThingDef ParentName="ResourceBase">
+    <defName>I_EMMechSkin</defName>
+    <label>mechanoid skin</label>
+    <description>The tough and pliable skin of a blood machine. It still contains trace mechanites and can be made into tough and adaptable armour.</description>
+    <graphicData>
+      <texPath>Things/Item/Skin</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <MarketValue>4</MarketValue>
+      <Mass>0.025</Mass>
+      <Flammability>0.2</Flammability>
+      <DeteriorationRate>1</DeteriorationRate>
+    </statBases>
+    <stuffProps>
+      <categories>
+        <li>Fabric</li>
+      </categories>
+      <commonality>0.15</commonality>
+      <color>(120,108,91)</color>
+      <statOffsets>
+      </statOffsets>
+      <statFactors>
+        <Insulation_Cold>0.5</Insulation_Cold>
+        <Insulation_Heat>0.5</Insulation_Heat>
+      </statFactors>
+    </stuffProps>
+    <thingCategories>
+      <li>Textiles</li>
+    </thingCategories>
+  </ThingDef>
+</Defs>

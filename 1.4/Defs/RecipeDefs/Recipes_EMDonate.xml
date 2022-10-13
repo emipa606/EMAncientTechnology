@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <RecipeDef Abstract="True" Name="EM_BloodSurgery">
+    <effectWorking>Surgery</effectWorking>
+    <soundWorking>Recipe_Surgery</soundWorking>
+    <workSpeedStat>MedicalOperationSpeed</workSpeedStat>
+    <workSkill>Medicine</workSkill>
+    <workSkillLearnFactor>4</workSkillLearnFactor>
+    <surgerySuccessChanceFactor>1</surgerySuccessChanceFactor>
+    <recipeUsers>
+      <li>Human</li>
+    </recipeUsers>
+  </RecipeDef>
+  <!-- donate blood -->
+  <RecipeDef ParentName="EM_BloodSurgery">
+    <defName>EM_DonateBlood</defName>
+    <label>Take blood</label>
+    <description>Take a blood donation</description>
+    <targetsBodyPart>false</targetsBodyPart>
+    <workerClass>Recipe_InstallImplant</workerClass>
+    <jobString>taking blood</jobString>
+    <workAmount>1000</workAmount>
+    <hideBodyPartNames>true</hideBodyPartNames>
+    <researchPrerequisite>MM_Efficiency</researchPrerequisite>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>EM_RawGourd</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>EM_RawGourd</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <I_EMBlood>2</I_EMBlood>
+    </products>
+    <addsHediff>BloodLoss</addsHediff>
+  </RecipeDef>
+</Defs>

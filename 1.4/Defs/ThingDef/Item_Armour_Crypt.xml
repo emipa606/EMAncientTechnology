@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="HatMakeableBase">
+    <defName>I_EMCryptMask</defName>
+    <label>Crypt Helmet</label>
+    <description>Lost technology. A hulking set of stone, wood, and mechanoid skin, much like the outlanders seen trapped death-like inside metal tombs sent from the stars. Slow, but very protective.</description>
+    <techLevel>Neolithic</techLevel>
+    <graphicData>
+      <texPath>Things/Item/Apparel/CryptMask</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <WorkToMake>20000</WorkToMake>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Mass>1.4</Mass>
+      <ArmorRating_Blunt>0.2</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.20</ArmorRating_Sharp>
+      <ArmorRating_Heat>0.3</ArmorRating_Heat>
+      <Insulation_Cold>12</Insulation_Cold>
+      <Insulation_Heat>12</Insulation_Heat>
+    </statBases>
+    <equippedStatOffsets>
+      <ToxicResistance>0.12</ToxicResistance>
+      <PsychicSensitivity>-0.35</PsychicSensitivity>
+      <MoveSpeed>-0.06</MoveSpeed>
+    </equippedStatOffsets>
+    <apparel>
+      <bodyPartGroups>
+        <li>FullHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Item/Apparel/CryptMask</wornGraphicPath>
+      <hatRenderedFrontOfFace>false</hatRenderedFrontOfFace>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <tags>
+        <li>MechaniteMagicAr</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+    <recipeMaker>
+      <researchPrerequisite>
+        <li>MM_Crypt</li>
+      </researchPrerequisite>
+      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+      <workSkill>Crafting</workSkill>
+      <effectWorking>Sculpt</effectWorking>
+      <soundWorking>Recipe_Sculpt</soundWorking>
+      <recipeUsers>
+        <li>CraftingSpot</li>
+        <li>TableMachining</li>
+      </recipeUsers>
+      <unfinishedThingDef>UnfinishedSculpture</unfinishedThingDef>
+    </recipeMaker>
+    <costList>
+      <I_EMMechanismS>4</I_EMMechanismS>
+      <I_EMMechanismL>2</I_EMMechanismL>
+      <I_EMMechSkin>15</I_EMMechSkin>
+      <WoodLog>25</WoodLog>
+      <I_EMSkull>1</I_EMSkull>
+      <I_EMBlood>2</I_EMBlood>
+    </costList>
+  </ThingDef>
+</Defs>

@@ -1,0 +1,258 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- digging -->
+  <RecipeDef>
+    <defName>EM_DigDirtSingle</defName>
+    <label>excavate dirt</label>
+    <description>Collect piles of soil and detritus that likely contain valuable resources in the form of forgotten machinery.</description>
+    <jobString>Excavating</jobString>
+    <workAmount>1000</workAmount>
+    <workSpeedStat>MiningSpeed</workSpeedStat>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <!--
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Corpses</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+
+
+
+    <fixedIngredientFilter>
+      <categories>
+        <li>Corpses</li>
+      </categories>
+      <disallowedCategories>
+        <li>CorpsesMechanoid</li>
+      </disallowedCategories>
+    </fixedIngredientFilter>
+
+
+    <defaultIngredientFilter>
+      <thingDefs>
+        <li>Corpse_Human</li>
+      </thingDefs>
+
+      <specialFiltersToAllow>
+        <li>AllowCorpsesColonist</li>
+        <li>AllowCorpsesStranger</li>
+      </specialFiltersToAllow>
+
+    </defaultIngredientFilter>
+-->
+    <researchPrerequisite>MM_Basic</researchPrerequisite>
+    <recipeUsers>
+      <li>EM_Excavation</li>
+    </recipeUsers>
+    <products>
+      <I_EMDirt>1</I_EMDirt>
+    </products>
+  </RecipeDef>
+  <RecipeDef>
+    <defName>EM_DigDirtMulti</defName>
+    <label>mass excavate dirt</label>
+    <description>Collect large amounts of soil and detritus that likely contain valuable resources in the form of forgotten machinery.</description>
+    <jobString>Excavating</jobString>
+    <workAmount>8000</workAmount>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <researchPrerequisite>MM_Efficiency</researchPrerequisite>
+    <recipeUsers>
+      <li>EM_Excavation</li>
+    </recipeUsers>
+    <products>
+      <I_EMDirt>10</I_EMDirt>
+    </products>
+  </RecipeDef>
+  <!-- assembling -->
+  <RecipeDef>
+    <defName>EM_MechS</defName>
+    <label>assemble small mechanism</label>
+    <description>Sort through piles of dirt laced with broken machinery and lost fragments of technology to assemble a small mechanism.</description>
+    <jobString>Assembling</jobString>
+    <workSpeedStat>ResearchSpeed</workSpeedStat>
+    <workAmount>2000</workAmount>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>I_EMDirt</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>I_EMDirt</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <defaultIngredientFilter>
+      <thingDefs>
+        <li>I_EMDirt</li>
+      </thingDefs>
+    </defaultIngredientFilter>
+    <researchPrerequisite>MM_Basic</researchPrerequisite>
+    <recipeUsers>
+      <li>EM_TechDesk</li>
+    </recipeUsers>
+    <products>
+      <I_EMMechanismS>1</I_EMMechanismS>
+    </products>
+  </RecipeDef>
+  <RecipeDef>
+    <defName>EM_MechL</defName>
+    <label>assemble large mechanism</label>
+    <description>Sort through piles of dirt laced with broken machinery and lost fragments of technology to assemble a large mechanism.</description>
+    <jobString>Assembling</jobString>
+    <workSpeedStat>ResearchSpeed</workSpeedStat>
+    <workAmount>6000</workAmount>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>I_EMDirt</li>
+          </thingDefs>
+        </filter>
+        <count>15</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>I_EMDirt</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <defaultIngredientFilter>
+      <thingDefs>
+        <li>I_EMDirt</li>
+      </thingDefs>
+    </defaultIngredientFilter>
+    <researchPrerequisite>MM_Adv</researchPrerequisite>
+    <recipeUsers>
+      <li>EM_TechDesk</li>
+    </recipeUsers>
+    <products>
+      <I_EMMechanismL>1</I_EMMechanismL>
+    </products>
+  </RecipeDef>
+  <RecipeDef>
+    <defName>EM_MechC</defName>
+    <label>combine small mechanisms</label>
+    <description>Combine several small mechanisms to create a larger mechanism.</description>
+    <jobString>Assembling</jobString>
+    <workSpeedStat>ResearchSpeed</workSpeedStat>
+    <workAmount>3000</workAmount>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>I_EMMechanismS</li>
+          </thingDefs>
+        </filter>
+        <count>3</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>I_EMMechanismS</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <defaultIngredientFilter>
+      <thingDefs>
+        <li>I_EMMechanismS</li>
+      </thingDefs>
+    </defaultIngredientFilter>
+    <researchPrerequisite>MM_Efficiency</researchPrerequisite>
+    <recipeUsers>
+      <li>EM_TechDesk</li>
+    </recipeUsers>
+    <products>
+      <I_EMMechanismL>1</I_EMMechanismL>
+    </products>
+  </RecipeDef>
+  <RecipeDef>
+    <defName>EM_MechCL</defName>
+    <label>disassemble large mechanisms</label>
+    <description>Disassemble a large mechanism into several smaller mechanisms.</description>
+    <jobString>Assembling</jobString>
+    <workSpeedStat>ResearchSpeed</workSpeedStat>
+    <workAmount>3000</workAmount>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>I_EMMechanismL</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>I_EMMechanismL</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <defaultIngredientFilter>
+      <thingDefs>
+        <li>I_EMMechanismL</li>
+      </thingDefs>
+    </defaultIngredientFilter>
+    <researchPrerequisite>MM_Efficiency</researchPrerequisite>
+    <recipeUsers>
+      <li>EM_TechDesk</li>
+    </recipeUsers>
+    <products>
+      <I_EMMechanismS>3</I_EMMechanismS>
+    </products>
+  </RecipeDef>
+  <!-- mechanoid skin -->
+  <RecipeDef>
+    <defName>EM_ButcherCorpseMechanoid</defName>
+    <label>butcher mechanoid</label>
+    <description>Pull apart a blood machine and recover its tough, pliable skin.</description>
+    <jobString>Skinning mechanoid.</jobString>
+    <workAmount>600</workAmount>
+    <workSpeedStat>ButcheryMechanoidSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <efficiencyStat>ButcheryMechanoidEfficiency</efficiencyStat>
+    <effectWorking>ButcherMechanoid</effectWorking>
+    <soundWorking>Recipe_ButcherCorpseMechanoid</soundWorking>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Corpses</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <researchPrerequisite>MM_Efficiency</researchPrerequisite>
+    <recipeUsers>
+      <li>EM_TechDesk</li>
+    </recipeUsers>
+    <products>
+      <I_EMMechanismS>4</I_EMMechanismS>
+      <I_EMMechSkin>15</I_EMMechSkin>
+    </products>
+    <fixedIngredientFilter>
+      <categories>
+        <li>CorpsesMechanoid</li>
+      </categories>
+    </fixedIngredientFilter>
+  </RecipeDef>
+</Defs>

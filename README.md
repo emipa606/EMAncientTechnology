@@ -1,20 +1,20 @@
 # EMAncientTechnology
 
-![Image](https://i.imgur.com/WAEzk68.png)
+![Image](https://i.imgur.com/buuPQel.png)
 
 Update of Moshs mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1347140034
 
-![Image](https://i.imgur.com/7Gzt3Rg.png)
+![Image](https://i.imgur.com/pufA0kM.png)
 
 	
-![Image](https://i.imgur.com/NOW7jU1.png)
+![Image](https://i.imgur.com/Z4GOv8H.png)
 
 The outlanders took to the skies and brought back wonders, meanwhile we took to remembering what was lost to the planet beneath us - what they call mechanites we simply call magic.
 
 Build powerful defenses to defend your tribe from attack, craft strange lost weaponry and armour, using nothing but blood and secrets lost to time...
 
-Excavate earth and discover fragments of technology long lost, break down (or have someone donate!) blood into powerful mechanites to be kept in specialist crops. Research the ability to build rudimentary autonomous defenses (outlanders call these things &quot;turrets&quot;), and craft strange and powerful weapons.
+Excavate earth and discover fragments of technology long lost, break down (or have someone donate!) blood into powerful mechanites to be kept in specialist crops. Research the ability to build rudimentary autonomous defenses (outlanders call these things "turrets"), and craft strange and powerful weapons.
 
 
 This mod is intended to add depth to early/tribal gameplay by offering a set of defenses and some cool weapons - these are in no way balanced for just tribal content but maybe gives you an opportunity to play a more advanced colony without progressing into industrial tech.
@@ -58,7 +58,7 @@ Some new damage types such as:
 If you like this then check out the other mods in the Early Man pack for tribal fun and frolicks!
 https://steamcommunity.com/sharedfiles/filedetails/?id=1342138383
 
-![Image](https://i.imgur.com/Rs6T6cr.png)
+![Image](https://i.imgur.com/PwoNOj4.png)
 
 
 
@@ -68,6 +68,7 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=1342138383
 -  For best support, please use the Discord-channel for error-reporting.
 -  Do not report errors by making a discussion-thread, I get no notification of that.
 -  If you have the solution for a problem, please post it to the GitHub repository.
+
 
 
 
