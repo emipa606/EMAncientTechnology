@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
   <!--=========================== Food crops ==============================-->
-  <ThingDef ParentName="RoughPlantBase">
+  <ThingDef ParentName="PlantBase">
     <defName>EM_PlantGourd</defName>
     <label>bottle gourd plant</label>
     <description>Tough, inedible, squash-like vegetable that when hollowed out makes a great air and water tight container for things you need to keep fresh - like blood.</description>
