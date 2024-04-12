@@ -1,0 +1,224 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!--=============== aoe launcher - area denial - level 1===============-->
+  <ThingDef ParentName="BuildingBase">
+    <defName>EMTurretRock</defName>
+    <label>rock catapult</label>
+    <thingClass>Building_TurretGun</thingClass>
+    <drawerType>MapMeshAndRealTime</drawerType>
+    <graphicData>
+      <texPath>Things/Building/Catapult</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(2.5,2.5)</drawSize>
+      <damageData>
+        <rect>(0.2,0.2,0.6,0.6)</rect>
+      </damageData>
+    </graphicData>
+    <thingCategories>
+      <li>BuildingsSecurity</li>
+    </thingCategories>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <altitudeLayer>Building</altitudeLayer>
+    <stealable>false</stealable>
+    <rotatable>false</rotatable>
+    <uiIconPath>Things/Building/Catapult_Icon</uiIconPath>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+      <WorkToBuild>2500</WorkToBuild>
+      <Mass>100</Mass>
+      <Beauty>-20</Beauty>
+    </statBases>
+    <tickerType>Normal</tickerType>
+    <size>(2,2)</size>
+    <comps>
+    </comps>
+    <description>A rudimentary catapult possessed of some limited intelligence through manipulation of mechanites. Launches rocks high into the air, difficult to pinpoint a specific target but good luck to anyone unlucky enough to get hit. Has a minimum range that it cannot launch within.</description>
+    <passability>PassThroughOnly</passability>
+    <pathCost>50</pathCost>
+    <fillPercent>0.4</fillPercent>
+    <castEdgeShadows>true</castEdgeShadows>
+    <hasTooltip>true</hasTooltip>
+    <stuffCategories>
+      <li>Woody</li>
+      <li>Stony</li>
+    </stuffCategories>
+    <costStuffCount>50</costStuffCount>
+    <costList>
+      <WoodLog>50</WoodLog>
+      <I_EMBlood>10</I_EMBlood>
+      <I_EMMechanismL>2</I_EMMechanismL>
+    </costList>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <designationCategory>Security</designationCategory>
+    <specialDisplayRadius>20</specialDisplayRadius>
+    <building>
+      <ai_combatDangerous>true</ai_combatDangerous>
+      <turretGunDef>Gun_EMTurretRock</turretGunDef>
+      <turretBurstCooldownTime>12</turretBurstCooldownTime>
+    </building>
+    <placeWorkers>
+      <li>PlaceWorker_TurretTop</li>
+      <li>PlaceWorker_ShowTurretRadius</li>
+    </placeWorkers>
+    <designationHotKey>Misc2</designationHotKey>
+    <researchPrerequisites>
+      <li>MM_Turret</li>
+    </researchPrerequisites>
+  </ThingDef>
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_EMTurretRock</defName>
+    <label>big ol' rock</label>
+    <graphicData>
+      <texPath>Things/Item/Weapon/Rock</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>TransparentPostLight</shaderType>
+    </graphicData>
+    <thingClass>Projectile_Explosive</thingClass>
+    <projectile>
+      <speed>6</speed>
+      <damageDef>EM_RockShot</damageDef>
+      <damageAmountBase>25</damageAmountBase>
+      <explosionRadius>1.5</explosionRadius>
+      <flyOverhead>true</flyOverhead>
+      <ai_IsIncendiary>false</ai_IsIncendiary>
+    </projectile>
+  </ThingDef>
+  <ThingDef ParentName="Ancient_BaseHumanGun">
+    <defName>Gun_EMTurretRock</defName>
+    <label>rock catapult</label>
+    <description>Catapult that fires rocks. Very, very heavy rocks.</description>
+    <graphicData>
+      <texPath>Things/Building/CatapultBow</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_Rifle</soundInteract>
+    <generateCommonality>0.4</generateCommonality>
+    <statBases>
+      <WorkToMake>22000</WorkToMake>
+      <Mass>3.4</Mass>
+      <AccuracyTouch>0.79</AccuracyTouch>
+      <AccuracyShort>0.42</AccuracyShort>
+      <AccuracyMedium>0.18</AccuracyMedium>
+      <AccuracyLong>0.06</AccuracyLong>
+      <RangedWeapon_Cooldown>5.0</RangedWeapon_Cooldown>
+    </statBases>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_EMTurretRock</defaultProjectile>
+        <warmupTime>3.0</warmupTime>
+        <range>200</range>
+        <burstShotCount>1</burstShotCount>
+        <soundCast>Bow_Small</soundCast>
+        <forcedMissRadius>5</forcedMissRadius>
+        <requireLineOfSight>false</requireLineOfSight>
+        <minRange>20</minRange>
+      </li>
+    </verbs>
+  </ThingDef>
+  <!--=============== dart launcher - area denial - level 2===============-->
+  <!--
+  <ThingDef ParentName="BuildingBase">
+    <defName>EMTurretDartX</defName>
+    <label>dart sentry</label>
+    <thingClass>Building_TurretGun</thingClass>
+    <graphicData>
+      <texPath>Things/Building/WoodTurret</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1,1)</drawSize>
+      <damageData>
+        <rect>(0.2,0.2,0.6,0.6)</rect>
+      </damageData>
+    </graphicData>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <altitudeLayer>Building</altitudeLayer>
+    <stealable>false</stealable>
+    <rotatable>false</rotatable>
+    <statBases>
+      <MaxHitPoints>200</MaxHitPoints>
+      <Flammability>0.65</Flammability>
+      <WorkToBuild>4000</WorkToBuild>
+      <Mass>100</Mass>
+      <Beauty>-25</Beauty>
+    </statBases>
+    <tickerType>Normal</tickerType>
+    <comps>
+    </comps>
+
+
+    <description>More advanced form of the dart trap, with quicker loaders and more aerodynamic arrows. Hard to hit a single target with but great for crowds and area denial.</description>
+    <passability>PassThroughOnly</passability>
+    <pathCost>50</pathCost>
+    <fillPercent>0.4</fillPercent>
+    <castEdgeShadows>true</castEdgeShadows>
+    <hasTooltip>true</hasTooltip>
+    <stuffCategories>
+      <li>Woody</li>
+    </stuffCategories>
+    <costStuffCount>75</costStuffCount>
+    <costList>
+      <WoodLog>100</WoodLog>
+    </costList>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <designationCategory>Security</designationCategory>
+    <specialDisplayRadius>25.9</specialDisplayRadius>
+    <building>
+			<ai_combatDangerous>true</ai_combatDangerous>
+      <turretGunDef>Gun_EMTurretDartX</turretGunDef>
+      <turretBurstCooldownTime>0.5</turretBurstCooldownTime>
+      <turretTopGraphicPath>Things/Building/TurretBowAdv</turretTopGraphicPath>
+    </building>
+    <designationHotKey>Misc2</designationHotKey>
+    <researchPrerequisites>
+      <li>GunTurrets</li>
+    </researchPrerequisites>
+  </ThingDef>
+
+
+
+
+
+  <ThingDef ParentName="BaseHumanMakeableGun">
+    <defName>Gun_EMTurretDartX</defName>
+    <label>dart sentry</label>
+    <graphicData>
+      <texPath>Things/Building/TurretBowAdv</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <description>Jury-rigged gun attached to a turret.</description>
+    <soundInteract>Interact_Rifle</soundInteract>
+    <generateCommonality>0</generateCommonality>
+    <tradeability>None</tradeability>
+    <destroyOnDrop>true</destroyOnDrop>
+    <useHitPoints>false</useHitPoints>
+    <statBases>
+      <AccuracyTouch>0.80</AccuracyTouch>
+      <AccuracyShort>0.64</AccuracyShort>
+      <AccuracyMedium>0.41</AccuracyMedium>
+      <AccuracyLong>0.22</AccuracyLong>
+      <RangedWeapon_Cooldown>1</RangedWeapon_Cooldown>
+      <DeteriorationRate>0</DeteriorationRate>
+    </statBases>
+    <weaponTags>
+      <li>TurretGun</li>
+    </weaponTags>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_EMTurretDart</defaultProjectile>
+        <warmupTime>1.5</warmupTime>
+        <range>25.9</range>
+        <ticksBetweenBurstShots>2</ticksBetweenBurstShots>
+        <burstShotCount>2</burstShotCount>
+        <soundCast>Bow_Small</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+	<forcedMissRadius>2</forcedMissRadius>
+      </li>
+    </verbs>
+  </ThingDef>
+-->
+</Defs>

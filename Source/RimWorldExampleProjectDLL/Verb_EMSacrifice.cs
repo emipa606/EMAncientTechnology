@@ -18,7 +18,7 @@ public class Verb_EMSacrifice : Verb
         {
             var powerBeam =
                 (PowerBeam)GenSpawn.Spawn(ThingDefOf.EM_EyeofGodEffect, currentTarget.Cell, caster.Map);
-            powerBeam.duration = 600;
+            powerBeam.duration = DurationTicks;
             powerBeam.instigator = caster;
             powerBeam.weaponDef = EquipmentSource?.def;
             powerBeam.StartStrike();

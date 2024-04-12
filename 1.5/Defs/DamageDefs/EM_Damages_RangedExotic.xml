@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <DamageDef>
+    <defName>EM_Fear</defName>
+    <label>Afflicted</label>
+    <workerClass>DamageWorker_Cut</workerClass>
+    <externalViolence>true</externalViolence>
+    <deathMessage>{0} has been scared to death.</deathMessage>
+    <hediff>EM_Fear</hediff>
+    <hediffSkin>EM_Fear</hediffSkin>
+    <hediffSolid>EM_Fear</hediffSolid>
+    <harmAllLayersUntilOutside>false</harmAllLayersUntilOutside>
+    <impactSoundType>Slice</impactSoundType>
+    <armorCategory>Blunt</armorCategory>
+  </DamageDef>
+  <DamageDef>
+    <defName>MM_Scratch</defName>
+    <label>scratch</label>
+    <externalViolence>true</externalViolence>
+    <isExplosive>true</isExplosive>
+    <deathMessage>{0} has been shot to death.</deathMessage>
+    <hediff>MM_Scratch</hediff>
+    <hediffSolid>Crack</hediffSolid>
+    <harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
+    <impactSoundType>Bullet</impactSoundType>
+    <armorCategory>Sharp</armorCategory>
+  </DamageDef>
+  <DamageDef>
+    <defName>EM_SleepShot</defName>
+    <label>injection</label>
+    <externalViolence>true</externalViolence>
+    <isExplosive>false</isExplosive>
+    <deathMessage>{0} has been shot to death.</deathMessage>
+    <hediff>MM_Sleep</hediff>
+    <hediffSolid>MM_Sleep</hediffSolid>
+    <harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
+    <impactSoundType>Bullet</impactSoundType>
+    <armorCategory>Sharp</armorCategory>
+  </DamageDef>
+  <DamageDef>
+    <defName>EM_ChargeShot</defName>
+    <label>concussive blast</label>
+    <externalViolence>true</externalViolence>
+    <isExplosive>true</isExplosive>
+    <deathMessage>{0} has been crushed to death.</deathMessage>
+    <hediff>MM_Scratch</hediff>
+    <hediffSolid>Crack</hediffSolid>
+    <harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
+    <impactSoundType>Blunt</impactSoundType>
+    <armorCategory>Blunt</armorCategory>
+    <defaultDamage>5</defaultDamage>
+    <buildingDamageFactorImpassable>1.5</buildingDamageFactorImpassable>
+    <explosionAffectOutsidePartsOnly>false</explosionAffectOutsidePartsOnly>
+    <explosionCellFleck>BlastDry</explosionCellFleck>
+    <explosionColorCenter>(79, 154, 210)</explosionColorCenter>
+    <explosionColorEdge>(72, 91, 106)</explosionColorEdge>
+    <soundExplosion>EM_ChargesSound</soundExplosion>
+  </DamageDef>
+  <DamageDef>
+    <defName>EM_Goop</defName>
+    <label>poison goop</label>
+    <externalViolence>true</externalViolence>
+    <isExplosive>true</isExplosive>
+    <deathMessage>{0} has been burned to death.</deathMessage>
+    <hediff>MM_Goop</hediff>
+    <hediffSolid>Crack</hediffSolid>
+    <harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
+    <impactSoundType>Blunt</impactSoundType>
+    <armorCategory>Blunt</armorCategory>
+    <defaultDamage>2</defaultDamage>
+    <buildingDamageFactorImpassable>0</buildingDamageFactorImpassable>
+    <explosionAffectOutsidePartsOnly>false</explosionAffectOutsidePartsOnly>
+    <explosionHeatEnergyPerCell>50</explosionHeatEnergyPerCell>
+    <explosionCellFleck>BlastDry</explosionCellFleck>
+    <explosionColorCenter>(141, 35, 237)</explosionColorCenter>
+    <explosionColorEdge>(117, 106, 166)</explosionColorEdge>
+    <soundExplosion>EM_ChargesSound</soundExplosion>
+  </DamageDef>
+  <DamageDef>
+    <defName>EM_JavelinShot</defName>
+    <label>poison goop</label>
+    <externalViolence>true</externalViolence>
+    <isExplosive>true</isExplosive>
+    <deathMessage>{0} has been burned to death.</deathMessage>
+    <hediff>MM_Radiation</hediff>
+    <hediffSolid>Crack</hediffSolid>
+    <harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
+    <impactSoundType>Blunt</impactSoundType>
+    <armorCategory>Blunt</armorCategory>
+    <defaultDamage>5</defaultDamage>
+    <buildingDamageFactorImpassable>2.5</buildingDamageFactorImpassable>
+    <explosionAffectOutsidePartsOnly>false</explosionAffectOutsidePartsOnly>
+    <explosionHeatEnergyPerCell>2000</explosionHeatEnergyPerCell>
+    <explosionCellFleck>BlastDry</explosionCellFleck>
+    <explosionColorCenter>(31, 250, 47)</explosionColorCenter>
+    <explosionColorEdge>(4, 166, 16)</explosionColorEdge>
+    <soundExplosion>EM_ChargesSound</soundExplosion>
+  </DamageDef>
+  <DamageDef>
+    <defName>EM_RockShot</defName>
+    <label>Crush</label>
+    <externalViolence>true</externalViolence>
+    <isExplosive>true</isExplosive>
+    <deathMessage>{0} has been crushed to death.</deathMessage>
+    <hediff>Crack</hediff>
+    <hediffSolid>Crack</hediffSolid>
+    <harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
+    <impactSoundType>Blunt</impactSoundType>
+    <armorCategory>Blunt</armorCategory>
+    <defaultDamage>5</defaultDamage>
+    <buildingDamageFactorImpassable>5</buildingDamageFactorImpassable>
+    <explosionAffectOutsidePartsOnly>false</explosionAffectOutsidePartsOnly>
+    <explosionHeatEnergyPerCell>0</explosionHeatEnergyPerCell>
+    <explosionCellFleck>BlastDry</explosionCellFleck>
+    <explosionColorCenter>(108, 103, 105)</explosionColorCenter>
+    <explosionColorEdge>(176, 176, 176)</explosionColorEdge>
+    <soundExplosion>EM_ChargesSound</soundExplosion>
+  </DamageDef>
+</Defs>
