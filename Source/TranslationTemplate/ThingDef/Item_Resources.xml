@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: dirt pile -->
+  <I_EMDirt.label>dirt pile</I_EMDirt.label>
+  <!-- EN: Pile of dirt that contains a large amount of broken machinery and ancient doodads. -->
+  <I_EMDirt.description>Pile of dirt that contains a large amount of broken machinery and ancient doodads.</I_EMDirt.description>
+  <!-- EN: large ancient mechanism -->
+  <I_EMMechanismL.label>large ancient mechanism</I_EMMechanismL.label>
+  <!-- EN: A larger, partially reassembled ancient mechanism, who knows what this was once designed for. Currently unuseable but can be imbued with a semblence of life using mechanites from a humanoids blood. -->
+  <I_EMMechanismL.description>A larger, partially reassembled ancient mechanism, who knows what this was once designed for. Currently unuseable but can be imbued with a semblence of life using mechanites from a humanoids blood.</I_EMMechanismL.description>
+  <!-- EN: small ancient mechanism -->
+  <I_EMMechanismS.label>small ancient mechanism</I_EMMechanismS.label>
+  <!-- EN: A smaller, partially reassembled ancient mechanism, who knows what this was once designed for. Currently unuseable but can be imbued with a semblence of life using mechanites from a humanoids blood. -->
+  <I_EMMechanismS.description>A smaller, partially reassembled ancient mechanism, who knows what this was once designed for. Currently unuseable but can be imbued with a semblence of life using mechanites from a humanoids blood.</I_EMMechanismS.description>
+  <!-- EN: mechanoid skin -->
+  <I_EMMechSkin.label>mechanoid skin</I_EMMechSkin.label>
+  <!-- EN: The tough and pliable skin of a blood machine. It still contains trace mechanites and can be made into tough and adaptable armour. -->
+  <I_EMMechSkin.description>The tough and pliable skin of a blood machine. It still contains trace mechanites and can be made into tough and adaptable armour.</I_EMMechSkin.description>
+</LanguageData>

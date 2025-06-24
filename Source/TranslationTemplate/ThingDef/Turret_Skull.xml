@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: fearful aura -->
+  <Bullet_EMTurretSkull.label>fearful aura</Bullet_EMTurretSkull.label>
+  <!-- EN: fearful effigy -->
+  <EMTurretSkull.label>fearful effigy</EMTurretSkull.label>
+  <!-- EN: An aura surrounds this effigy and strikes targets with fears and panic to drive them away. A menacing image stands on the top and watches those who pass by. -->
+  <EMTurretSkull.description>An aura surrounds this effigy and strikes targets with fears and panic to drive them away. A menacing image stands on the top and watches those who pass by.</EMTurretSkull.description>
+  <!-- EN: fear totem -->
+  <EMTurretSkullX.label>fear totem</EMTurretSkullX.label>
+  <!-- EN: An intense aura surrounds this totem, those who approach are struck by panic and are driven away. A terrible visage sits atop the totem and watches those who pass by. -->
+  <EMTurretSkullX.description>An intense aura surrounds this totem, those who approach are struck by panic and are driven away. A terrible visage sits atop the totem and watches those who pass by.</EMTurretSkullX.description>
+  <!-- EN: terrifying skull -->
+  <Gun_EMTurretSkull.label>terrifying skull</Gun_EMTurretSkull.label>
+  <!-- EN: The skull of a humanoid used as a fearsome trophy. -->
+  <Gun_EMTurretSkull.description>The skull of a humanoid used as a fearsome trophy.</Gun_EMTurretSkull.description>
+  <!-- EN: terrifying skull -->
+  <Gun_EMTurretSkull.verbs.Verb_Shoot.label>terrifying skull</Gun_EMTurretSkull.verbs.Verb_Shoot.label>
+  <!-- EN: horrifying skull -->
+  <Gun_EMTurretSkullX.label>horrifying skull</Gun_EMTurretSkullX.label>
+  <!-- EN: The skull of a humanoid used as a fearsome trophy. -->
+  <Gun_EMTurretSkullX.description>The skull of a humanoid used as a fearsome trophy.</Gun_EMTurretSkullX.description>
+  <!-- EN: horrifying skull -->
+  <Gun_EMTurretSkullX.verbs.Verb_Shoot.label>horrifying skull</Gun_EMTurretSkullX.verbs.Verb_Shoot.label>
+</LanguageData>

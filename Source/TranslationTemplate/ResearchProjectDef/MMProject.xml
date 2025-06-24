@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Advanced Ancient Tech -->
+  <MM_Adv.label>Advanced Ancient Tech</MM_Adv.label>
+  <!-- EN: Learn how to build rudimentary autonomous defenses using ancient technology and blood mechanites. -->
+  <MM_Adv.description>Learn how to build rudimentary autonomous defenses using ancient technology and blood mechanites.</MM_Adv.description>
+  <!-- EN: Ancient Tech Basics -->
+  <MM_Basic.label>Ancient Tech Basics</MM_Basic.label>
+  <!-- EN: Uncover the secrets of the earth by discovering ancient mechanisms, along with breaking down humans for their blood. -->
+  <MM_Basic.description>Uncover the secrets of the earth by discovering ancient mechanisms, along with breaking down humans for their blood.</MM_Basic.description>
+  <!-- EN: Blood Machines -->
+  <MM_Blood.label>Blood Machines</MM_Blood.label>
+  <!-- EN: Copy the technology of the blood machines that hunt us and learn how to craft fearsome armour and weapons. -->
+  <MM_Blood.description>Copy the technology of the blood machines that hunt us and learn how to craft fearsome armour and weapons.</MM_Blood.description>
+  <!-- EN: Death-Like Sleep -->
+  <MM_Crypt.label>Death-Like Sleep</MM_Crypt.label>
+  <!-- EN: Copy the technology of the crypts that keep outworlders in a state of preservation and learn how to craft defensive armour and weaponry. -->
+  <MM_Crypt.description>Copy the technology of the crypts that keep outworlders in a state of preservation and learn how to craft defensive armour and weaponry.</MM_Crypt.description>
+  <!-- EN: Ancient Efficiency -->
+  <MM_Efficiency.label>Ancient Efficiency</MM_Efficiency.label>
+  <!-- EN: Use lost techniques to collect dirt in bulk, combine and break down mechanisms, and have living humans donate their blood. -->
+  <MM_Efficiency.description>Use lost techniques to collect dirt in bulk, combine and break down mechanisms, and have living humans donate their blood.</MM_Efficiency.description>
+  <!-- EN: Thinking Engines -->
+  <MM_Thinking.label>Thinking Engines</MM_Thinking.label>
+  <!-- EN: Copy the technology of the engines that fall from the sky and think for themselves, and learn how to craft specialist weapons and armour. -->
+  <MM_Thinking.description>Copy the technology of the engines that fall from the sky and think for themselves, and learn how to craft specialist weapons and armour.</MM_Thinking.description>
+  <!-- EN: Ancient Turrets -->
+  <MM_Turret.label>Ancient Turrets</MM_Turret.label>
+  <!-- EN: More advanced turrets crafted from ancient technology- the rock catapult and acid launcher, along with upgrades for the dart trap and fearful effigy. -->
+  <MM_Turret.description>More advanced turrets crafted from ancient technology- the rock catapult and acid launcher, along with upgrades for the dart trap and fearful effigy.</MM_Turret.description>
+</LanguageData>

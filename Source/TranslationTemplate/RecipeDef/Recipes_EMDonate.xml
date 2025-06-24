@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Take blood -->
+  <EM_DonateBlood.label>Take blood</EM_DonateBlood.label>
+  <!-- EN: Take a blood donation -->
+  <EM_DonateBlood.description>Take a blood donation</EM_DonateBlood.description>
+  <!-- EN: taking blood -->
+  <EM_DonateBlood.jobString>taking blood</EM_DonateBlood.jobString>
+</LanguageData>

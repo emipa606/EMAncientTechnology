@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: impact charge noise -->
+  <EM_ChargesSound.label>impact charge noise</EM_ChargesSound.label>
+  <!-- EN: impact charge explosion -->
+  <EM_ChargesSound.description>impact charge explosion</EM_ChargesSound.description>
+  <!-- EN: ripper noise -->
+  <EM_RipperSound.label>ripper noise</EM_RipperSound.label>
+  <!-- EN: ripper shoot sound -->
+  <EM_RipperSound.description>ripper shoot sound</EM_RipperSound.description>
+  <!-- EN: skull turret noise -->
+  <EM_SkullTurretSound.label>skull turret noise</EM_SkullTurretSound.label>
+  <!-- EN: noise a skull turret makes -->
+  <EM_SkullTurretSound.description>noise a skull turret makes</EM_SkullTurretSound.description>
+</LanguageData>

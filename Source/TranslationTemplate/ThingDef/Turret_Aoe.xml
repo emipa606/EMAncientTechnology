@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: big ol' rock -->
+  <Bullet_EMTurretRock.label>big ol' rock</Bullet_EMTurretRock.label>
+  <!-- EN: rock catapult -->
+  <EMTurretRock.label>rock catapult</EMTurretRock.label>
+  <!-- EN: A rudimentary catapult possessed of some limited intelligence through manipulation of mechanites. Launches rocks high into the air, difficult to pinpoint a specific target but good luck to anyone unlucky enough to get hit. Has a minimum range that it cannot launch within. -->
+  <EMTurretRock.description>A rudimentary catapult possessed of some limited intelligence through manipulation of mechanites. Launches rocks high into the air, difficult to pinpoint a specific target but good luck to anyone unlucky enough to get hit. Has a minimum range that it cannot launch within.</EMTurretRock.description>
+  <!-- EN: rock catapult -->
+  <Gun_EMTurretRock.label>rock catapult</Gun_EMTurretRock.label>
+  <!-- EN: Catapult that fires rocks. Very, very heavy rocks. -->
+  <Gun_EMTurretRock.description>Catapult that fires rocks. Very, very heavy rocks.</Gun_EMTurretRock.description>
+  <!-- EN: rock catapult -->
+  <Gun_EMTurretRock.verbs.Verb_Shoot.label>rock catapult</Gun_EMTurretRock.verbs.Verb_Shoot.label>
+</LanguageData>

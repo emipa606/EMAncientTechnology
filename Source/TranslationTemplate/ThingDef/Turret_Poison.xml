@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: acidic goop -->
+  <Bullet_EMTurretGoop.label>acidic goop</Bullet_EMTurretGoop.label>
+  <!-- EN: acid launcher -->
+  <EMTurretGoop.label>acid launcher</EMTurretGoop.label>
+  <!-- EN: A turret possessed of basic intelligence through manipulation of mechanites. Fires streams of acidic material, on contact with this acidic material the target is slowed. This is unsurprisingly very painful for them. Has a minimum range. -->
+  <EMTurretGoop.description>A turret possessed of basic intelligence through manipulation of mechanites. Fires streams of acidic material, on contact with this acidic material the target is slowed. This is unsurprisingly very painful for them. Has a minimum range.</EMTurretGoop.description>
+  <!-- EN: acid launcher -->
+  <Gun_EMTurretGoop.label>acid launcher</Gun_EMTurretGoop.label>
+  <!-- EN: Jury-rigged gun attached to a turret. -->
+  <Gun_EMTurretGoop.description>Jury-rigged gun attached to a turret.</Gun_EMTurretGoop.description>
+  <!-- EN: acid launcher -->
+  <Gun_EMTurretGoop.verbs.Verb_Shoot.label>acid launcher</Gun_EMTurretGoop.verbs.Verb_Shoot.label>
+</LanguageData>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: dart -->
+  <Bullet_EMTurretDart.label>dart</Bullet_EMTurretDart.label>
+  <!-- EN: dart trap -->
+  <EMTurretDart.label>dart trap</EMTurretDart.label>
+  <!-- EN: A rudimentary dart trap possessed of some limited intelligence through manipulation of mechanites. Hard to hit a single target with but great for crowds and area denial. -->
+  <EMTurretDart.description>A rudimentary dart trap possessed of some limited intelligence through manipulation of mechanites. Hard to hit a single target with but great for crowds and area denial.</EMTurretDart.description>
+  <!-- EN: dart sentry -->
+  <EMTurretDartX.label>dart sentry</EMTurretDartX.label>
+  <!-- EN: More advanced form of the dart trap, with quicker loaders and more aerodynamic arrows. Hard to hit a single target with but great for crowds and area denial. -->
+  <EMTurretDartX.description>More advanced form of the dart trap, with quicker loaders and more aerodynamic arrows. Hard to hit a single target with but great for crowds and area denial.</EMTurretDartX.description>
+  <!-- EN: dart trap -->
+  <Gun_EMTurretDart.label>dart trap</Gun_EMTurretDart.label>
+  <!-- EN: Jury-rigged gun attached to a turret. -->
+  <Gun_EMTurretDart.description>Jury-rigged gun attached to a turret.</Gun_EMTurretDart.description>
+  <!-- EN: dart trap -->
+  <Gun_EMTurretDart.verbs.Verb_Shoot.label>dart trap</Gun_EMTurretDart.verbs.Verb_Shoot.label>
+  <!-- EN: dart sentry -->
+  <Gun_EMTurretDartX.label>dart sentry</Gun_EMTurretDartX.label>
+  <!-- EN: Jury-rigged gun attached to a turret. -->
+  <Gun_EMTurretDartX.description>Jury-rigged gun attached to a turret.</Gun_EMTurretDartX.description>
+  <!-- EN: dart sentry -->
+  <Gun_EMTurretDartX.verbs.Verb_Shoot.label>dart sentry</Gun_EMTurretDartX.verbs.Verb_Shoot.label>
+</LanguageData>

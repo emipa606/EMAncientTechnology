@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: afflicted -->
+  <EM_FearStab.label>afflicted</EM_FearStab.label>
+  <!-- EN: {0} has been scared to death. -->
+  <EM_FearStab.deathMessage>{0} has been scared to death.</EM_FearStab.deathMessage>
+  <!-- EN: burn -->
+  <EM_FlameStab.label>burn</EM_FlameStab.label>
+  <!-- EN: {0} has been burned to death. -->
+  <EM_FlameStab.deathMessage>{0} has been burned to death.</EM_FlameStab.deathMessage>
+  <!-- EN: poison -->
+  <EM_PoisonStab.label>poison</EM_PoisonStab.label>
+  <!-- EN: {0} has been lethally poisoned. -->
+  <EM_PoisonStab.deathMessage>{0} has been lethally poisoned.</EM_PoisonStab.deathMessage>
+  <!-- EN: injected -->
+  <EM_SleepStab.label>injected</EM_SleepStab.label>
+  <!-- EN: {0} has been stabbed to death. -->
+  <EM_SleepStab.deathMessage>{0} has been stabbed to death.</EM_SleepStab.deathMessage>
+</LanguageData>

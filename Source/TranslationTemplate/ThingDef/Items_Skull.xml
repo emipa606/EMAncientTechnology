@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: humanoid blood -->
+  <I_EMBlood.label>humanoid blood</I_EMBlood.label>
+  <!-- EN: The blood and mechanites that reside within a humanoid. Preserved for longer storage inside a bottle gourd. -->
+  <I_EMBlood.description>The blood and mechanites that reside within a humanoid. Preserved for longer storage inside a bottle gourd.</I_EMBlood.description>
+  <!-- EN: skull -->
+  <I_EMSkull.label>skull</I_EMSkull.label>
+  <!-- EN: The skull from a creature. -->
+  <I_EMSkull.description>The skull from a creature.</I_EMSkull.description>
+</LanguageData>

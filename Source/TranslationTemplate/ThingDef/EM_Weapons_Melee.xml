@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: searing club -->
+  <EM_MeleeWeapon_Club.label>searing club</EM_MeleeWeapon_Club.label>
+  <!-- EN: This club is partially constructed from technology long since lost. While fairly blunt in itself, the mechanites that power it keep it super-heated at all times, causing nasty burns to any hit by it. -->
+  <EM_MeleeWeapon_Club.description>This club is partially constructed from technology long since lost. While fairly blunt in itself, the mechanites that power it keep it super-heated at all times, causing nasty burns to any hit by it.</EM_MeleeWeapon_Club.description>
+  <!-- EN: handle -->
+  <EM_MeleeWeapon_Club.tools.handle.label>handle</EM_MeleeWeapon_Club.tools.handle.label>
+  <!-- EN: head -->
+  <EM_MeleeWeapon_Club.tools.head.label>head</EM_MeleeWeapon_Club.tools.head.label>
+  <!-- EN: ceremonial blades -->
+  <EM_MeleeWeapon_Knife.label>ceremonial blades</EM_MeleeWeapon_Knife.label>
+  <!-- EN: Technology recovered for use. Once a single blade that has been split into two functional knives. The mechanites that power them act in a cohesive manner and move together as if they were still one blade. Those injured are slowed as mechanites attack their immune system. -->
+  <EM_MeleeWeapon_Knife.description>Technology recovered for use. Once a single blade that has been split into two functional knives. The mechanites that power them act in a cohesive manner and move together as if they were still one blade. Those injured are slowed as mechanites attack their immune system.</EM_MeleeWeapon_Knife.description>
+  <!-- EN: handle -->
+  <EM_MeleeWeapon_Knife.tools.handle.label>handle</EM_MeleeWeapon_Knife.tools.handle.label>
+  <!-- EN: point -->
+  <EM_MeleeWeapon_Knife.tools.point.label>point</EM_MeleeWeapon_Knife.tools.point.label>
+  <!-- EN: edge -->
+  <EM_MeleeWeapon_Knife.tools.edge.label>edge</EM_MeleeWeapon_Knife.tools.edge.label>
+  <!-- EN: mechanoid longsword -->
+  <EM_MeleeWeapon_Longsword.label>mechanoid longsword</EM_MeleeWeapon_Longsword.label>
+  <!-- EN: This long, devilishly sharp sword resembles the blades that blood-machines wear as arms. The mechanites that make up this sword keep it sharp at all times and those struck by it will be scared to approach it. -->
+  <EM_MeleeWeapon_Longsword.description>This long, devilishly sharp sword resembles the blades that blood-machines wear as arms. The mechanites that make up this sword keep it sharp at all times and those struck by it will be scared to approach it.</EM_MeleeWeapon_Longsword.description>
+  <!-- EN: handle -->
+  <EM_MeleeWeapon_Longsword.tools.handle.label>handle</EM_MeleeWeapon_Longsword.tools.handle.label>
+  <!-- EN: point -->
+  <EM_MeleeWeapon_Longsword.tools.point.label>point</EM_MeleeWeapon_Longsword.tools.point.label>
+  <!-- EN: edge -->
+  <EM_MeleeWeapon_Longsword.tools.edge.label>edge</EM_MeleeWeapon_Longsword.tools.edge.label>
+  <!-- EN: sledgemace -->
+  <EM_MeleeWeapon_Mace.label>sledgemace</EM_MeleeWeapon_Mace.label>
+  <!-- EN: Crafted from lost technology and imbued with mechanites. A seemingly ordinary mace, wrapped in tough fibres and wire. Those who use them for long enough swear the weapons speak to them, telling them where to strike for maximum damage. Slow and heavy to wield; just holding this weapon makes one feel confident. -->
+  <EM_MeleeWeapon_Mace.description>Crafted from lost technology and imbued with mechanites. A seemingly ordinary mace, wrapped in tough fibres and wire. Those who use them for long enough swear the weapons speak to them, telling them where to strike for maximum damage. Slow and heavy to wield; just holding this weapon makes one feel confident.</EM_MeleeWeapon_Mace.description>
+  <!-- EN: handle -->
+  <EM_MeleeWeapon_Mace.tools.handle.label>handle</EM_MeleeWeapon_Mace.tools.handle.label>
+  <!-- EN: noxious shiv -->
+  <EM_MeleeWeapon_Shiv.label>noxious shiv</EM_MeleeWeapon_Shiv.label>
+  <!-- EN: A basic stabbing weapon made from lost technology. Looks like the fang of a mechanical beast long dead, drips a noxious substance constantly. -->
+  <EM_MeleeWeapon_Shiv.description>A basic stabbing weapon made from lost technology. Looks like the fang of a mechanical beast long dead, drips a noxious substance constantly.</EM_MeleeWeapon_Shiv.description>
+  <!-- EN: handle -->
+  <EM_MeleeWeapon_Shiv.tools.handle.label>handle</EM_MeleeWeapon_Shiv.tools.handle.label>
+  <!-- EN: point -->
+  <EM_MeleeWeapon_Shiv.tools.point.label>point</EM_MeleeWeapon_Shiv.tools.point.label>
+  <!-- EN: singing spear -->
+  <EM_MeleeWeapon_Spear.label>singing spear</EM_MeleeWeapon_Spear.label>
+  <!-- EN: Sturdy spear tipped with a head made from recovered technology. Wounds caused by this spear slow the target as their immune system is flooded with surgical mechanites. -->
+  <EM_MeleeWeapon_Spear.description>Sturdy spear tipped with a head made from recovered technology. Wounds caused by this spear slow the target as their immune system is flooded with surgical mechanites.</EM_MeleeWeapon_Spear.description>
+  <!-- EN: shaft -->
+  <EM_MeleeWeapon_Spear.tools.shaft.label>shaft</EM_MeleeWeapon_Spear.tools.shaft.label>
+  <!-- EN: point -->
+  <EM_MeleeWeapon_Spear.tools.point.label>point</EM_MeleeWeapon_Spear.tools.point.label>
+</LanguageData>

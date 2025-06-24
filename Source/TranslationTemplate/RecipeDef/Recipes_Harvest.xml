@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: harvest humanoid blood -->
+  <EM_HarvestBlood.label>harvest humanoid blood</EM_HarvestBlood.label>
+  <!-- EN: Harvest the blood from a humanoid. -->
+  <EM_HarvestBlood.description>Harvest the blood from a humanoid.</EM_HarvestBlood.description>
+  <!-- EN: Bloodletting -->
+  <EM_HarvestBlood.jobString>Bloodletting</EM_HarvestBlood.jobString>
+  <!-- EN: harvest humanoid skull and blood -->
+  <EM_HarvestSaB.label>harvest humanoid skull and blood</EM_HarvestSaB.label>
+  <!-- EN: Harvest the skull and blood from a humanoid. Produces drastically less blood than just harvesting blood alone. -->
+  <EM_HarvestSaB.description>Harvest the skull and blood from a humanoid. Produces drastically less blood than just harvesting blood alone.</EM_HarvestSaB.description>
+  <!-- EN: Harvesting -->
+  <EM_HarvestSaB.jobString>Harvesting</EM_HarvestSaB.jobString>
+  <!-- EN: harvest humanoid skull -->
+  <EM_HarvestSkull.label>harvest humanoid skull</EM_HarvestSkull.label>
+  <!-- EN: Harvest the skull from a humanoid. -->
+  <EM_HarvestSkull.description>Harvest the skull from a humanoid.</EM_HarvestSkull.description>
+  <!-- EN: Carving -->
+  <EM_HarvestSkull.jobString>Carving</EM_HarvestSkull.jobString>
+</LanguageData>

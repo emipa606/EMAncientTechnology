@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: afflicted -->
+  <EM_Fear.label>afflicted</EM_Fear.label>
+  <!-- EN: afflicted -->
+  <EM_Fear.description>afflicted</EM_Fear.description>
+  <!-- EN: lingering worry -->
+  <EM_Fear.comps.HediffComp_GetsPermanent.permanentLabel>lingering worry</EM_Fear.comps.HediffComp_GetsPermanent.permanentLabel>
+  <!-- EN: a strange affliction -->
+  <EM_Fear.labelNoun>a strange affliction</EM_Fear.labelNoun>
+  <!-- EN: {0} in the {1} -->
+  <EM_Fear.labelNounPretty>{0} in the {1}</EM_Fear.labelNounPretty>
+  <!-- EN: afflicted -->
+  <EM_FearMelee.label>afflicted</EM_FearMelee.label>
+  <!-- EN: afflicted -->
+  <EM_FearMelee.description>afflicted</EM_FearMelee.description>
+  <!-- EN: lingering worry -->
+  <EM_FearMelee.comps.HediffComp_GetsPermanent.permanentLabel>lingering worry</EM_FearMelee.comps.HediffComp_GetsPermanent.permanentLabel>
+  <!-- EN: a strange affliction -->
+  <EM_FearMelee.labelNoun>a strange affliction</EM_FearMelee.labelNoun>
+  <!-- EN: {0} in the {1} -->
+  <EM_FearMelee.labelNounPretty>{0} in the {1}</EM_FearMelee.labelNounPretty>
+  <!-- EN: acidic goop -->
+  <MM_Goop.label>acidic goop</MM_Goop.label>
+  <!-- EN: acidic goop -->
+  <MM_Goop.description>acidic goop</MM_Goop.description>
+  <!-- EN: discoloured patch -->
+  <MM_Goop.comps.HediffComp_GetsPermanent.permanentLabel>discoloured patch</MM_Goop.comps.HediffComp_GetsPermanent.permanentLabel>
+  <!-- EN: burn -->
+  <MM_Goop.labelNoun>burn</MM_Goop.labelNoun>
+  <!-- EN: {0} in the {1} -->
+  <MM_Goop.labelNounPretty>{0} in the {1}</MM_Goop.labelNounPretty>
+  <!-- EN: burn -->
+  <MM_Radiation.label>burn</MM_Radiation.label>
+  <!-- EN: burn -->
+  <MM_Radiation.description>burn</MM_Radiation.description>
+  <!-- EN: burn scar -->
+  <MM_Radiation.comps.HediffComp_GetsPermanent.permanentLabel>burn scar</MM_Radiation.comps.HediffComp_GetsPermanent.permanentLabel>
+  <!-- EN: Cut off -->
+  <MM_Radiation.injuryProps.destroyedLabel>Cut off</MM_Radiation.injuryProps.destroyedLabel>
+  <!-- EN: Cut out -->
+  <MM_Radiation.injuryProps.destroyedOutLabel>Cut out</MM_Radiation.injuryProps.destroyedOutLabel>
+  <!-- EN: burn -->
+  <MM_Radiation.labelNoun>burn</MM_Radiation.labelNoun>
+  <!-- EN: {0} in the {1} -->
+  <MM_Radiation.labelNounPretty>{0} in the {1}</MM_Radiation.labelNounPretty>
+  <!-- EN: scratch -->
+  <MM_Scratch.label>scratch</MM_Scratch.label>
+  <!-- EN: scratch -->
+  <MM_Scratch.description>scratch</MM_Scratch.description>
+  <!-- EN: cut scar -->
+  <MM_Scratch.comps.HediffComp_GetsPermanent.permanentLabel>cut scar</MM_Scratch.comps.HediffComp_GetsPermanent.permanentLabel>
+  <!-- EN: Cut off -->
+  <MM_Scratch.injuryProps.destroyedLabel>Cut off</MM_Scratch.injuryProps.destroyedLabel>
+  <!-- EN: Cut out -->
+  <MM_Scratch.injuryProps.destroyedOutLabel>Cut out</MM_Scratch.injuryProps.destroyedOutLabel>
+  <!-- EN: a torn wound -->
+  <MM_Scratch.labelNoun>a torn wound</MM_Scratch.labelNoun>
+  <!-- EN: {0} in the {1} -->
+  <MM_Scratch.labelNounPretty>{0} in the {1}</MM_Scratch.labelNounPretty>
+  <!-- EN: serum -->
+  <MM_Sleep.label>serum</MM_Sleep.label>
+  <!-- EN: serum -->
+  <MM_Sleep.description>serum</MM_Sleep.description>
+  <!-- EN: shaken off -->
+  <MM_Sleep.comps.HediffComp_TendDuration.labelTendedWell>shaken off</MM_Sleep.comps.HediffComp_TendDuration.labelTendedWell>
+  <!-- EN: scar -->
+  <MM_Sleep.comps.HediffComp_GetsPermanent.permanentLabel>scar</MM_Sleep.comps.HediffComp_GetsPermanent.permanentLabel>
+  <!-- EN: Cut off -->
+  <MM_Sleep.injuryProps.destroyedLabel>Cut off</MM_Sleep.injuryProps.destroyedLabel>
+  <!-- EN: surgical wound -->
+  <MM_Sleep.labelNoun>surgical wound</MM_Sleep.labelNoun>
+  <!-- EN: {0} in the {1} -->
+  <MM_Sleep.labelNounPretty>{0} in the {1}</MM_Sleep.labelNounPretty>
+  <!-- EN: serum -->
+  <MM_SleepSmall.label>serum</MM_SleepSmall.label>
+  <!-- EN: serum -->
+  <MM_SleepSmall.description>serum</MM_SleepSmall.description>
+  <!-- EN: shaken off -->
+  <MM_SleepSmall.comps.HediffComp_TendDuration.labelTendedWell>shaken off</MM_SleepSmall.comps.HediffComp_TendDuration.labelTendedWell>
+  <!-- EN: scar -->
+  <MM_SleepSmall.comps.HediffComp_GetsPermanent.permanentLabel>scar</MM_SleepSmall.comps.HediffComp_GetsPermanent.permanentLabel>
+  <!-- EN: Cut off -->
+  <MM_SleepSmall.injuryProps.destroyedLabel>Cut off</MM_SleepSmall.injuryProps.destroyedLabel>
+  <!-- EN: surgical wound -->
+  <MM_SleepSmall.labelNoun>surgical wound</MM_SleepSmall.labelNoun>
+  <!-- EN: {0} in the {1} -->
+  <MM_SleepSmall.labelNounPretty>{0} in the {1}</MM_SleepSmall.labelNounPretty>
+  <!-- EN: toxin -->
+  <MM_Toxin.label>toxin</MM_Toxin.label>
+  <!-- EN: toxin -->
+  <MM_Toxin.description>toxin</MM_Toxin.description>
+  <!-- EN: discoloured patch -->
+  <MM_Toxin.comps.HediffComp_GetsPermanent.permanentLabel>discoloured patch</MM_Toxin.comps.HediffComp_GetsPermanent.permanentLabel>
+  <!-- EN: a toxic wound -->
+  <MM_Toxin.labelNoun>a toxic wound</MM_Toxin.labelNoun>
+  <!-- EN: {0} in the {1} -->
+  <MM_Toxin.labelNounPretty>{0} in the {1}</MM_Toxin.labelNounPretty>
+</LanguageData>

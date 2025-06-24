@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: refining -->
+  <EM_DoBillsBlood.label>refining</EM_DoBillsBlood.label>
+  <!-- EN: refine -->
+  <EM_DoBillsBlood.gerund>refine</EM_DoBillsBlood.gerund>
+  <!-- EN: refining -->
+  <EM_DoBillsBlood.verb>refining</EM_DoBillsBlood.verb>
+  <!-- EN: excavate -->
+  <EM_DoBillsExcavation.label>excavate</EM_DoBillsExcavation.label>
+  <!-- EN: dig -->
+  <EM_DoBillsExcavation.gerund>dig</EM_DoBillsExcavation.gerund>
+  <!-- EN: excavating -->
+  <EM_DoBillsExcavation.verb>excavating</EM_DoBillsExcavation.verb>
+  <!-- EN: reassemble -->
+  <EM_DoBillsMechanism.label>reassemble</EM_DoBillsMechanism.label>
+  <!-- EN: assemble -->
+  <EM_DoBillsMechanism.gerund>assemble</EM_DoBillsMechanism.gerund>
+  <!-- EN: assembling -->
+  <EM_DoBillsMechanism.verb>assembling</EM_DoBillsMechanism.verb>
+</LanguageData>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Mechanite Grave -->
+  <EM_BloodPit.label>Mechanite Grave</EM_BloodPit.label>
+  <!-- EN: An ancient art long lost, this simple looking grave is filled with specialised caustic compounds and mechanites that eat away at dead humanoids, leaving behind their bones and blood - full of mechanites which are useful for a wide variety of tasks. -->
+  <EM_BloodPit.description>An ancient art long lost, this simple looking grave is filled with specialised caustic compounds and mechanites that eat away at dead humanoids, leaving behind their bones and blood - full of mechanites which are useful for a wide variety of tasks.</EM_BloodPit.description>
+  <!-- EN: Excavation -->
+  <EM_Excavation.label>Excavation</EM_Excavation.label>
+  <!-- EN: Designated spot where ancient mechanisms and lost technology is recovered. -->
+  <EM_Excavation.description>Designated spot where ancient mechanisms and lost technology is recovered.</EM_Excavation.description>
+  <!-- EN: Mechanists table -->
+  <EM_TechDesk.label>Mechanists table</EM_TechDesk.label>
+  <!-- EN: Space set aside with tools and instruments to help recover and reassemble lost and damaged ancient technology. -->
+  <EM_TechDesk.description>Space set aside with tools and instruments to help recover and reassemble lost and damaged ancient technology.</EM_TechDesk.description>
+</LanguageData>

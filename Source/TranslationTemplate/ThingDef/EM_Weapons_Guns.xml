@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: bowsling arrow -->
+  <Arrow_EMBowsling.label>bowsling arrow</Arrow_EMBowsling.label>
+  <!-- EN: evil gaze -->
+  <Bullet_EMEye.label>evil gaze</Bullet_EMEye.label>
+  <!-- EN: bomb javelin -->
+  <Bullet_EMJavelin.label>bomb javelin</Bullet_EMJavelin.label>
+  <!-- EN: ripper cloud -->
+  <Bullet_EMRipper.label>ripper cloud</Bullet_EMRipper.label>
+  <!-- EN: shotstaff thorn -->
+  <Bullet_EMShotstaff.label>shotstaff thorn</Bullet_EMShotstaff.label>
+  <!-- EN: Chemical Charges -->
+  <EM_ChemicalCharge.label>Chemical Charges</EM_ChemicalCharge.label>
+  <!-- EN: A volatile mixture of chemicals and mechanites from a lost recipe, explodes in a concussive blast when thrown. -->
+  <EM_ChemicalCharge.description>A volatile mixture of chemicals and mechanites from a lost recipe, explodes in a concussive blast when thrown.</EM_ChemicalCharge.description>
+  <!-- EN: throw grenades -->
+  <EM_ChemicalCharge.verbs.throw_grenades.label>throw grenades</EM_ChemicalCharge.verbs.throw_grenades.label>
+  <!-- EN: Bowsling -->
+  <EM_GunBowsling.label>Bowsling</EM_GunBowsling.label>
+  <!-- EN: Lost technology brought to life with mechanites. A bundle of arrows dropped into this rather unwieldy tube are spat out at incredible speeds with surprising accuracy. -->
+  <EM_GunBowsling.description>Lost technology brought to life with mechanites. A bundle of arrows dropped into this rather unwieldy tube are spat out at incredible speeds with surprising accuracy.</EM_GunBowsling.description>
+  <!-- EN: Bowsling -->
+  <EM_GunBowsling.verbs.Verb_Shoot.label>Bowsling</EM_GunBowsling.verbs.Verb_Shoot.label>
+  <!-- EN: Bomb Javelin -->
+  <EM_GunJavelin.label>Bomb Javelin</EM_GunJavelin.label>
+  <!-- EN: Ancient pattern explosives powered by mechanites tip these oddly weighted javelins. Tough to throw very far but explode with intense heat and concussive force. Extremely dangerous when used in enclosed spaces. -->
+  <EM_GunJavelin.description>Ancient pattern explosives powered by mechanites tip these oddly weighted javelins. Tough to throw very far but explode with intense heat and concussive force. Extremely dangerous when used in enclosed spaces.</EM_GunJavelin.description>
+  <!-- EN: Bomb Javelin -->
+  <EM_GunJavelin.verbs.Verb_Shoot.label>Bomb Javelin</EM_GunJavelin.verbs.Verb_Shoot.label>
+  <!-- EN: Ripper -->
+  <EM_GunRipper.label>Ripper</EM_GunRipper.label>
+  <!-- EN: A very strange piece of ancient technology. Releases a cloud of mechanites that tear and shred anything they touch to pieces. -->
+  <EM_GunRipper.description>A very strange piece of ancient technology. Releases a cloud of mechanites that tear and shred anything they touch to pieces.</EM_GunRipper.description>
+  <!-- EN: stock -->
+  <EM_GunRipper.tools.stock.label>stock</EM_GunRipper.tools.stock.label>
+  <!-- EN: barrel -->
+  <EM_GunRipper.tools.barrel.label>barrel</EM_GunRipper.tools.barrel.label>
+  <!-- EN: Ripper -->
+  <EM_GunRipper.verbs.Verb_Shoot.label>Ripper</EM_GunRipper.verbs.Verb_Shoot.label>
+  <!-- EN: Thunder Staff -->
+  <EM_GunShotstaff.label>Thunder Staff</EM_GunShotstaff.label>
+  <!-- EN: Bizarre combination of recovered technology and weaponsmithing. Unleashes dozens of tiny bards in a wide arc. Short range, great for groups. Also makes for a decent melee weapon due to the barbs that cover it. Takes a long time to shoot and move after shooting. -->
+  <EM_GunShotstaff.description>Bizarre combination of recovered technology and weaponsmithing. Unleashes dozens of tiny bards in a wide arc. Short range, great for groups. Also makes for a decent melee weapon due to the barbs that cover it. Takes a long time to shoot and move after shooting.</EM_GunShotstaff.description>
+  <!-- EN: stock -->
+  <EM_GunShotstaff.tools.stock.label>stock</EM_GunShotstaff.tools.stock.label>
+  <!-- EN: barrel -->
+  <EM_GunShotstaff.tools.barrel.label>barrel</EM_GunShotstaff.tools.barrel.label>
+  <!-- EN: Thunder Staff -->
+  <EM_GunShotstaff.verbs.Verb_Shoot.label>Thunder Staff</EM_GunShotstaff.verbs.Verb_Shoot.label>
+  <!-- EN: Evil Eye -->
+  <Gun_EMEvilEye.label>Evil Eye</Gun_EMEvilEye.label>
+  <!-- EN: Perculiar piece of ancient technology. By merely looking through the eyepiece at something and manipulating the mechanism damage appears as if by magic. Surely an evil artifact from time long gone. -->
+  <Gun_EMEvilEye.description>Perculiar piece of ancient technology. By merely looking through the eyepiece at something and manipulating the mechanism damage appears as if by magic. Surely an evil artifact from time long gone.</Gun_EMEvilEye.description>
+  <!-- EN: Evil Eye -->
+  <Gun_EMEvilEye.verbs.Verb_Shoot.label>Evil Eye</Gun_EMEvilEye.verbs.Verb_Shoot.label>
+  <!-- EN: chemical mixture -->
+  <Proj_EMCharge.label>chemical mixture</Proj_EMCharge.label>
+</LanguageData>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: afflicted -->
+  <EM_FearStab.label>afflicted</EM_FearStab.label>
+  <!-- EN: burned -->
+  <EM_FlameStab.label>burned</EM_FlameStab.label>
+  <!-- EN: poisoned -->
+  <EM_PoisonStab.label>poisoned</EM_PoisonStab.label>
+  <!-- EN: injected -->
+  <EM_SleepStab.label>injected</EM_SleepStab.label>
+</LanguageData>

@@ -1,0 +1,84 @@
+ManifestFileVersion: 0
+CRC: 1592177129
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 276f2afcca07e488932e0c3087dd0268
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: ce3b6d18a872ca8039cd5eb3c4fb7ef5
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 276f2afcca07e488932e0c3087dd0268
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Data/Mlie.EMAncientTechnology/Sounds/Guns/ChargeBullet.mp3
+- Assets/Data/Mlie.EMAncientTechnology/Textures/Things/Item/Apparel/AIMask.png
+- Assets/Data/Mlie.EMAncientTechnology/Textures/Things/Item/Apparel/MechMask_east.png
+- Assets/Data/Mlie.EMAncientTechnology/Textures/Things/Building/TurretBowAdv.png
+- Assets/Data/Mlie.EMAncientTechnology/Textures/Things/Building/Turret_Icon.png
+- Assets/Data/Mlie.EMAncientTechnology/Textures/Things/Building/Trap_Icon.png
+- Assets/Data/Mlie.EMAncientTechnology/Textures/Things/Building/Skull3.png
+- Assets/Data/Mlie.EMAncientTechnology/Textures/Things/Building/Skull2Adv.png
+- Assets/Data/Mlie.EMAncientTechnology/Textures/Things/Item/Mechanism2.png
+- Assets/Data/Mlie.EMAncientTechnology/Textures/Things/Item/Apparel/AIMask_south.png
+- Assets/Data/Mlie.EMAncientTechnology/Textures/Things/Item/Gourd.png
+- Assets/Data/Mlie.EMAncientTechnology/Textures/Things/Item/Apparel/CryptMask_east.png
+- Assets/Data/Mlie.EMAncientTechnology/Textures/Things/Item/Weapon/Eye.png
+- Assets/Data/Mlie.EMAncientTechnology/Textures/Things/Item/Weapon/SkullFlash/SkullFlash_c.png
+- Assets/Data/Mlie.EMAncientTechnology/Textures/Things/Item/Weapon/SkullFlash/SkullFlash_b.png
+- Assets/Data/Mlie.EMAncientTechnology/Textures/Things/Item/Apparel/MechMask_north.png
+- Assets/Data/Mlie.EMAncientTechnology/Textures/Things/Building/WoodTurret.png
+- Assets/Data/Mlie.EMAncientTechnology/Textures/Things/Item/Dirt.png
+- Assets/Data/Mlie.EMAncientTechnology/Textures/Things/Building/Effigy_Icon.png
+- Assets/Data/Mlie.EMAncientTechnology/Textures/Things/Building/Totem_Icon.png
+- Assets/Data/Mlie.EMAncientTechnology/Textures/Things/Building/BloodPit.png
+- Assets/Data/Mlie.EMAncientTechnology/Textures/Things/Building/GoopBow.png
+- Assets/Data/Mlie.EMAncientTechnology/Textures/Things/Item/Weapon/JavelinThrown.png
+- Assets/Data/Mlie.EMAncientTechnology/Textures/Things/Item/Skull/Skull.png
+- Assets/Data/Mlie.EMAncientTechnology/Textures/Things/Building/Catapult.png
+- Assets/Data/Mlie.EMAncientTechnology/Textures/Things/Item/Apparel/CryptMask_north.png
+- Assets/Data/Mlie.EMAncientTechnology/Textures/Things/Item/Weapon/Mace.png
+- Assets/Data/Mlie.EMAncientTechnology/Textures/Things/Item/Apparel/MechMask_south.png
+- Assets/Data/Mlie.EMAncientTechnology/Sounds/Guns/RipperBullet.mp3
+- Assets/Data/Mlie.EMAncientTechnology/Textures/Things/Building/Goop_Icon.png
+- Assets/Data/Mlie.EMAncientTechnology/Textures/Things/Item/Skin.png
+- Assets/Data/Mlie.EMAncientTechnology/Sounds/Guns/SkullBullet.mp3
+- Assets/Data/Mlie.EMAncientTechnology/Textures/Things/Item/Blood.png
+- Assets/Data/Mlie.EMAncientTechnology/Textures/Things/Building/Catapult_Icon.png
+- Assets/Data/Mlie.EMAncientTechnology/Textures/Things/Item/Weapon/Knife.png
+- Assets/Data/Mlie.EMAncientTechnology/Textures/Things/Item/Weapon/MechSword.png
+- Assets/Data/Mlie.EMAncientTechnology/Textures/Things/Item/Skull.png
+- Assets/Data/Mlie.EMAncientTechnology/Textures/Things/Item/Weapon/Staff.png
+- Assets/Data/Mlie.EMAncientTechnology/Textures/Things/Item/Weapon/Rock.png
+- Assets/Data/Mlie.EMAncientTechnology/Textures/Things/Item/Apparel/CryptMask_south.png
+- Assets/Data/Mlie.EMAncientTechnology/Textures/Things/Item/Weapon/Ripper.png
+- Assets/Data/Mlie.EMAncientTechnology/Textures/Things/Building/Skull2.png
+- Assets/Data/Mlie.EMAncientTechnology/Textures/Things/Item/Weapon/ChargesThrown.png
+- Assets/Data/Mlie.EMAncientTechnology/Textures/Things/Item/Mechanism1.png
+- Assets/Data/Mlie.EMAncientTechnology/Textures/Things/Building/TechDesk.png
+- Assets/Data/Mlie.EMAncientTechnology/Textures/Things/Item/Weapon/PRock.png
+- Assets/Data/Mlie.EMAncientTechnology/Textures/Things/Item/Weapon/Bowsling.png
+- Assets/Data/Mlie.EMAncientTechnology/Textures/Things/Building/Skull.png
+- Assets/Data/Mlie.EMAncientTechnology/Textures/Things/Building/CatapultBow.png
+- Assets/Data/Mlie.EMAncientTechnology/Textures/Things/Item/Weapon/Shiv.png
+- Assets/Data/Mlie.EMAncientTechnology/Textures/Things/Item/Apparel/AIMask_north.png
+- Assets/Data/Mlie.EMAncientTechnology/Textures/Things/Item/Apparel/AIMask_east.png
+- Assets/Data/Mlie.EMAncientTechnology/Textures/Things/Item/Apparel/CryptMask.png
+- Assets/Data/Mlie.EMAncientTechnology/Textures/Things/Item/Apparel/MechMask.png
+- Assets/Data/Mlie.EMAncientTechnology/Textures/Things/Building/RocksTurret.png
+- Assets/Data/Mlie.EMAncientTechnology/Textures/Things/Building/Excavation.png
+- Assets/Data/Mlie.EMAncientTechnology/Textures/Things/Item/Weapon/Charges.png
+- Assets/Data/Mlie.EMAncientTechnology/Textures/Things/Item/Weapon/Javelin.png
+- Assets/Data/Mlie.EMAncientTechnology/Textures/Things/Item/Weapon/Barb.png
+- Assets/Data/Mlie.EMAncientTechnology/Textures/Things/Item/Weapon/Spear.png
+- Assets/Data/Mlie.EMAncientTechnology/Textures/Things/Item/Weapon/Club.png
+- Assets/Data/Mlie.EMAncientTechnology/Textures/Things/Building/TurretBow.png
+- Assets/Data/Mlie.EMAncientTechnology/Textures/Things/Item/Weapon/SkullFlash/SkullFlash_a.png
+Dependencies: []

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: butcher mechanoid -->
+  <EM_ButcherCorpseMechanoid.label>butcher mechanoid</EM_ButcherCorpseMechanoid.label>
+  <!-- EN: Pull apart a blood machine and recover its tough, pliable skin. -->
+  <EM_ButcherCorpseMechanoid.description>Pull apart a blood machine and recover its tough, pliable skin.</EM_ButcherCorpseMechanoid.description>
+  <!-- EN: Skinning mechanoid. -->
+  <EM_ButcherCorpseMechanoid.jobString>Skinning mechanoid.</EM_ButcherCorpseMechanoid.jobString>
+  <!-- EN: mass excavate dirt -->
+  <EM_DigDirtMulti.label>mass excavate dirt</EM_DigDirtMulti.label>
+  <!-- EN: Collect large amounts of soil and detritus that likely contain valuable resources in the form of forgotten machinery. -->
+  <EM_DigDirtMulti.description>Collect large amounts of soil and detritus that likely contain valuable resources in the form of forgotten machinery.</EM_DigDirtMulti.description>
+  <!-- EN: Excavating -->
+  <EM_DigDirtMulti.jobString>Excavating</EM_DigDirtMulti.jobString>
+  <!-- EN: excavate dirt -->
+  <EM_DigDirtSingle.label>excavate dirt</EM_DigDirtSingle.label>
+  <!-- EN: Collect piles of soil and detritus that likely contain valuable resources in the form of forgotten machinery. -->
+  <EM_DigDirtSingle.description>Collect piles of soil and detritus that likely contain valuable resources in the form of forgotten machinery.</EM_DigDirtSingle.description>
+  <!-- EN: Excavating -->
+  <EM_DigDirtSingle.jobString>Excavating</EM_DigDirtSingle.jobString>
+  <!-- EN: combine small mechanisms -->
+  <EM_MechC.label>combine small mechanisms</EM_MechC.label>
+  <!-- EN: Combine several small mechanisms to create a larger mechanism. -->
+  <EM_MechC.description>Combine several small mechanisms to create a larger mechanism.</EM_MechC.description>
+  <!-- EN: Assembling -->
+  <EM_MechC.jobString>Assembling</EM_MechC.jobString>
+  <!-- EN: disassemble large mechanisms -->
+  <EM_MechCL.label>disassemble large mechanisms</EM_MechCL.label>
+  <!-- EN: Disassemble a large mechanism into several smaller mechanisms. -->
+  <EM_MechCL.description>Disassemble a large mechanism into several smaller mechanisms.</EM_MechCL.description>
+  <!-- EN: Assembling -->
+  <EM_MechCL.jobString>Assembling</EM_MechCL.jobString>
+  <!-- EN: assemble large mechanism -->
+  <EM_MechL.label>assemble large mechanism</EM_MechL.label>
+  <!-- EN: Sort through piles of dirt laced with broken machinery and lost fragments of technology to assemble a large mechanism. -->
+  <EM_MechL.description>Sort through piles of dirt laced with broken machinery and lost fragments of technology to assemble a large mechanism.</EM_MechL.description>
+  <!-- EN: Assembling -->
+  <EM_MechL.jobString>Assembling</EM_MechL.jobString>
+  <!-- EN: assemble small mechanism -->
+  <EM_MechS.label>assemble small mechanism</EM_MechS.label>
+  <!-- EN: Sort through piles of dirt laced with broken machinery and lost fragments of technology to assemble a small mechanism. -->
+  <EM_MechS.description>Sort through piles of dirt laced with broken machinery and lost fragments of technology to assemble a small mechanism.</EM_MechS.description>
+  <!-- EN: Assembling -->
+  <EM_MechS.jobString>Assembling</EM_MechS.jobString>
+</LanguageData>

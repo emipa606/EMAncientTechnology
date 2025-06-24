@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: vassal of sacrifice -->
+  <EM_EyeofGod.label>vassal of sacrifice</EM_EyeofGod.label>
+  <!-- EN: An ancient targeting unit for a network of power-collection satellites. Once aimed at a target, it directs ancient satellites to begin beaming power down in a massive column of electromagnetic energy. This power can safely be collected in a giant absorption dish. Since you have no absorption dish, you'll be aiming it at enemies, at which point the power column will turn the area into a thousand-degree inferno. This will last until the satellites detect the unsafe targeting, shut themselves down, and permanently deactivate the targeter. -->
+  <EM_EyeofGod.description>An ancient targeting unit for a network of power-collection satellites. Once aimed at a target, it directs ancient satellites to begin beaming power down in a massive column of electromagnetic energy. This power can safely be collected in a giant absorption dish. Since you have no absorption dish, you'll be aiming it at enemies, at which point the power column will turn the area into a thousand-degree inferno. This will last until the satellites detect the unsafe targeting, shut themselves down, and permanently deactivate the targeter.</EM_EyeofGod.description>
+  <!-- EN: vassal of sacrifice -->
+  <EM_EyeofGod.verbs.Verb_EMSacrifice.label>vassal of sacrifice</EM_EyeofGod.verbs.Verb_EMSacrifice.label>
+</LanguageData>

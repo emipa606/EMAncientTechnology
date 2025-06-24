@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: concussive blast -->
+  <EM_ChargeShot.label>concussive blast</EM_ChargeShot.label>
+  <!-- EN: {0} has been crushed to death. -->
+  <EM_ChargeShot.deathMessage>{0} has been crushed to death.</EM_ChargeShot.deathMessage>
+  <!-- EN: Afflicted -->
+  <EM_Fear.label>Afflicted</EM_Fear.label>
+  <!-- EN: {0} has been scared to death. -->
+  <EM_Fear.deathMessage>{0} has been scared to death.</EM_Fear.deathMessage>
+  <!-- EN: poison goop -->
+  <EM_Goop.label>poison goop</EM_Goop.label>
+  <!-- EN: {0} has been burned to death. -->
+  <EM_Goop.deathMessage>{0} has been burned to death.</EM_Goop.deathMessage>
+  <!-- EN: poison goop -->
+  <EM_JavelinShot.label>poison goop</EM_JavelinShot.label>
+  <!-- EN: {0} has been burned to death. -->
+  <EM_JavelinShot.deathMessage>{0} has been burned to death.</EM_JavelinShot.deathMessage>
+  <!-- EN: Crush -->
+  <EM_RockShot.label>Crush</EM_RockShot.label>
+  <!-- EN: {0} has been crushed to death. -->
+  <EM_RockShot.deathMessage>{0} has been crushed to death.</EM_RockShot.deathMessage>
+  <!-- EN: injection -->
+  <EM_SleepShot.label>injection</EM_SleepShot.label>
+  <!-- EN: {0} has been shot to death. -->
+  <EM_SleepShot.deathMessage>{0} has been shot to death.</EM_SleepShot.deathMessage>
+  <!-- EN: scratch -->
+  <MM_Scratch.label>scratch</MM_Scratch.label>
+  <!-- EN: {0} has been shot to death. -->
+  <MM_Scratch.deathMessage>{0} has been shot to death.</MM_Scratch.deathMessage>
+</LanguageData>
