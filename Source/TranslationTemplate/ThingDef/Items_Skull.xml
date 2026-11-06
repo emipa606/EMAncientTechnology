@@ -8,4 +8,6 @@
   <I_EMSkull.label>skull</I_EMSkull.label>
   <!-- EN: The skull from a creature. -->
   <I_EMSkull.description>The skull from a creature.</I_EMSkull.description>
+  <!-- EN: bone -->
+  <I_EMSkull.stuffProps.stuffAdjective>bone</I_EMSkull.stuffProps.stuffAdjective>
 </LanguageData>

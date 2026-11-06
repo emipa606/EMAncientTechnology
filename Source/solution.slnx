@@ -3,4 +3,63 @@
     <BuildType Name="Release" />
   </Configurations>
   <Project Path="RimWorldExampleProjectDLL/EMAncientTechnology.csproj" />
+  <Folder Name="/.github/">
+    <File Path="../.github/copilot-instructions.md" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/ThingDef_Plants/">
+    <File Path="../1.7/Defs/ThingDef_Plants/EM_Plants_Cultivated.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/ResearchProjectDefs/">
+    <File Path="../1.7/Defs/ResearchProjectDefs/MMProject.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/ThingDef/">
+    <File Path="../1.7/Defs/ThingDef/EM_Ethereal.xml" />
+    <File Path="../1.7/Defs/ThingDef/EM_Resource_RawPlant.xml" />
+    <File Path="../1.7/Defs/ThingDef/EM_Weapons_Guns.xml" />
+    <File Path="../1.7/Defs/ThingDef/EM_Weapons_Melee.xml" />
+    <File Path="../1.7/Defs/ThingDef/Item_Armour_AI.xml" />
+    <File Path="../1.7/Defs/ThingDef/Item_Armour_Crypt.xml" />
+    <File Path="../1.7/Defs/ThingDef/Item_Armour_Mech.xml" />
+    <File Path="../1.7/Defs/ThingDef/Item_Resources.xml" />
+    <File Path="../1.7/Defs/ThingDef/Items_Skull.xml" />
+    <File Path="../1.7/Defs/ThingDef/MM_Buildings.xml" />
+    <File Path="../1.7/Defs/ThingDef/Special_Weapons.xml" />
+    <File Path="../1.7/Defs/ThingDef/Turret_Aoe.xml" />
+    <File Path="../1.7/Defs/ThingDef/Turret_Dart.xml" />
+    <File Path="../1.7/Defs/ThingDef/Turret_Poison.xml" />
+    <File Path="../1.7/Defs/ThingDef/Turret_Skull.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/WorkGiverDefs/">
+    <File Path="../1.7/Defs/WorkGiverDefs/EMMMWorkGivers.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/RecipeDefs/">
+    <File Path="../1.7/Defs/RecipeDefs/Recipes_EMDonate.xml" />
+    <File Path="../1.7/Defs/RecipeDefs/Recipes_Excavation.xml" />
+    <File Path="../1.7/Defs/RecipeDefs/Recipes_Harvest.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/Maneuvers/">
+    <File Path="../1.7/Defs/Maneuvers/EM_Maneuvers.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/HeDiffDefs/">
+    <File Path="../1.7/Defs/HeDiffDefs/HeDiffs_injuryexotic.xml" />
+  </Folder>
+  <Folder Name="/XML/About/">
+    <File Path="../About/about.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/DamageDefs/">
+    <File Path="../1.7/Defs/DamageDefs/EM_Damages_MeleeWeapon.xml" />
+    <File Path="../1.7/Defs/DamageDefs/EM_Damages_RangedExotic.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/SoundDefs/">
+    <File Path="../1.7/Defs/SoundDefs/MMSounds.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Patches/">
+    <File Path="../1.7/Patches/patches.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/ThoughtDef/">
+    <File Path="../1.7/Defs/ThoughtDef/EM_drankBlood.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/ToolCapacityDefs/">
+    <File Path="../1.7/Defs/ToolCapacityDefs/EM_ToolCapacity.xml" />
+  </Folder>
 </Solution>
